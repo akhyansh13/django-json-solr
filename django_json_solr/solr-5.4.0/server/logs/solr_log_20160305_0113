@@ -1,0 +1,85 @@
+2016-03-01 19:27:26.435 INFO  (main) [   ] o.e.j.u.log Logging initialized @2164ms
+2016-03-01 19:27:28.726 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2016-03-01 19:27:28.831 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-03-01 19:27:28.876 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/contexts/] at interval 0
+2016-03-01 19:27:30.337 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-03-01 19:27:30.419 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,STARTING}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-03-01 19:27:30.514 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=239465106@e45f292
+2016-03-01 19:27:30.726 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-03-01 19:27:30.726 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-03-01 19:27:30.735 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr'
+2016-03-01 19:27:30.735 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-03-01 19:27:30.735 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-03-01 19:27:30.793 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/solr.xml
+2016-03-01 19:27:31.490 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-03-01 19:27:31.774 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1669712678
+2016-03-01 19:27:31.774 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr]
+2016-03-01 19:27:31.775 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/lib to classpath: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/lib
+2016-03-01 19:27:31.906 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2016-03-01 19:27:32.730 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-03-01 19:27:32.748 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-03-01 19:27:32.748 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-03-01 19:27:32.751 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-03-01 19:27:32.751 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-03-01 19:27:33.157 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-03-01 19:27:33.238 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=fastnext, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext, absoluteInstDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/, dataDir=data}
+2016-03-01 19:27:33.239 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core fastnext in /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/
+2016-03-01 19:27:33.239 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2016-03-01 19:27:33.281 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext'
+2016-03-01 19:27:33.281 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server
+2016-03-01 19:27:33.282 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-03-01 19:27:33.282 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-03-01 19:27:33.282 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-03-01 19:27:33.466 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,AVAILABLE}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp}
+2016-03-01 19:27:33.668 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2016-03-01 19:27:33.712 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@5fdcaa40{HTTP/1.1}{0.0.0.0:8983}
+2016-03-01 19:27:33.714 INFO  (main) [   ] o.e.j.s.Server Started @9446ms
+2016-03-01 19:27:33.818 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2016-03-01 19:27:33.826 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.4.0
+2016-03-01 19:27:34.473 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2016-03-01 19:27:34.531 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [fastnext] Schema name=default
+2016-03-01 19:27:35.212 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema default search field in schema is text
+2016-03-01 19:27:35.213 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema query parser default operator is AND
+2016-03-01 19:27:35.213 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2016-03-01 19:27:35.658 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext'
+2016-03-01 19:27:35.659 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'fastnext' using configuration from instancedir /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext
+2016-03-01 19:27:35.786 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2016-03-01 19:27:35.818 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore [[fastnext] ] Opening new SolrCore at [/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext], dataDir=[null]
+2016-03-01 19:27:35.848 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2016-03-01 19:27:36.059 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory return new directory for /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data
+2016-03-01 19:27:36.060 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore New index directory detected: old=null new=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index/
+2016-03-01 19:27:36.077 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory return new directory for /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index
+2016-03-01 19:27:36.163 INFO  (OldIndexDirectoryCleanupThreadForCore-fastnext) [   x:fastnext] o.a.s.c.SolrCore Looking for old index directories to cleanup for core fastnext in /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/
+2016-03-01 19:27:36.488 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2016-03-01 19:27:36.637 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-03-01 19:27:36.657 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-03-01 19:27:36.658 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-03-01 19:27:36.659 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-03-01 19:27:36.677 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2016-03-01 19:27:36.677 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2016-03-01 19:27:36.681 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2016-03-01 19:27:36.682 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2016-03-01 19:27:36.683 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2016-03-01 19:27:36.726 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2016-03-01 19:27:36.726 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2016-03-01 19:27:36.852 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2016-03-01 19:27:36.852 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2016-03-01 19:27:37.718 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@55121c21; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3q,generation=134}
+2016-03-01 19:27:37.719 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 134
+2016-03-01 19:27:38.749 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@7f5eb2eb[fastnext] main
+2016-03-01 19:27:38.784 WARN  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.ManagedResourceStorage Cannot write to config directory /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/conf; switching to use InMemory storage instead.
+2016-03-01 19:27:38.785 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.RestManager Initializing RestManager with initArgs: {}
+2016-03-01 19:27:38.797 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using InMemoryStorage
+2016-03-01 19:27:38.797 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2016-03-01 19:27:38.826 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2016-03-01 19:27:38.828 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@7f5eb2eb[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_x(5.4.0):C11048/2967:delGen=5) Uninverting(_17(5.4.0):C11940/2770:delGen=4) Uninverting(_1i(5.4.0):C8022) Uninverting(_1s(5.4.0):C10000) Uninverting(_22(5.4.0):C10000) Uninverting(_2d(5.4.0):C10000) Uninverting(_2o(5.4.0):C10000) Uninverting(_2z(5.4.0):C10000) Uninverting(_3a(5.4.0):C10000) Uninverting(_3l(5.4.0):C10000) Uninverting(_3y(5.4.0):c10000) Uninverting(_3o(5.4.0):C1000) Uninverting(_3q(5.4.0):C1000) Uninverting(_3z(5.4.0):C1000) Uninverting(_40(5.4.0):C1000) Uninverting(_41(5.4.0):C787)))}
+2016-03-01 19:27:38.829 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2016-03-01 19:27:38.831 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2016-03-01 19:27:39.029 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.VersionInfo Found MAX value 1527424435418562561 from Terms for _version_ in index
+2016-03-01 19:27:39.036 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Took 206.0ms to seed version buckets with highest version 1527424435418562561
+2016-03-01 19:27:39.037 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CoreContainer registering core: fastnext
+2016-03-01 19:28:21.608 INFO  (qtp434176574-20) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=ios+madras&start=0&rows=500&wt=json} hits=42 status=0 QTime=1006 
+2016-03-01 19:29:46.779 INFO  (qtp434176574-20) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=ios+madras&start=0&rows=500&wt=json} hits=42 status=0 QTime=9 
+2016-03-01 20:48:50.115 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=CTO&start=0&rows=500&wt=json} hits=587 status=0 QTime=441 
+2016-03-01 21:17:08.174 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q="CTO"&start=0&rows=500&wt=json} hits=587 status=0 QTime=16 

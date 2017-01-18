@@ -1,0 +1,147 @@
+2017-01-18 10:56:53.006 INFO  (main) [   ] o.e.j.u.log Logging initialized @721ms
+2017-01-18 10:56:53.315 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2017-01-18 10:56:53.338 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2017-01-18 10:56:53.341 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/contexts/] at interval 0
+2017-01-18 10:56:54.948 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2017-01-18 10:56:54.963 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@4dfa3a9d{/solr,file:/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr-webapp/webapp/,STARTING}{/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2017-01-18 10:56:55.033 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1596000437@5f2108b5
+2017-01-18 10:56:55.155 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-01-18 10:56:55.156 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr
+2017-01-18 10:56:55.158 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr'
+2017-01-18 10:56:55.158 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-01-18 10:56:55.158 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr
+2017-01-18 10:56:55.248 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/solr.xml
+2017-01-18 10:56:55.573 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr
+2017-01-18 10:56:55.793 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 943081537
+2017-01-18 10:56:55.794 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr]
+2017-01-18 10:56:55.795 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/lib to classpath: /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/lib
+2017-01-18 10:56:55.868 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2017-01-18 10:56:56.284 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-01-18 10:56:56.299 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2017-01-18 10:56:56.301 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2017-01-18 10:56:56.303 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2017-01-18 10:56:56.304 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2017-01-18 10:56:56.552 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr
+2017-01-18 10:56:56.622 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=fastnext, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext, absoluteInstDir=/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/, dataDir=data}
+2017-01-18 10:56:56.622 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core fastnext in /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/
+2017-01-18 10:56:56.622 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2017-01-18 10:56:56.626 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext'
+2017-01-18 10:56:56.627 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-01-18 10:56:56.627 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server
+2017-01-18 10:56:56.627 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr
+2017-01-18 10:56:56.627 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2017-01-18 10:56:56.658 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@4dfa3a9d{/solr,file:/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr-webapp/webapp/,AVAILABLE}{/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr-webapp/webapp}
+2017-01-18 10:56:56.678 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@6dc17b83{HTTP/1.1}{0.0.0.0:8983}
+2017-01-18 10:56:56.679 INFO  (main) [   ] o.e.j.s.Server Started @4397ms
+2017-01-18 10:56:56.718 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2017-01-18 10:56:56.720 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2017-01-18 10:56:56.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/contrib/clustering/lib/attributes-binder-1.2.3.jar' to classloader
+2017-01-18 10:56:56.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/contrib/clustering/lib/carrot2-guava-18.0.jar' to classloader
+2017-01-18 10:56:56.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/contrib/clustering/lib/carrot2-mini-3.10.4.jar' to classloader
+2017-01-18 10:56:56.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/contrib/clustering/lib/jackson-annotations-2.5.4.jar' to classloader
+2017-01-18 10:56:56.752 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/contrib/clustering/lib/jackson-databind-2.5.4.jar' to classloader
+2017-01-18 10:56:56.752 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2017-01-18 10:56:56.752 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2017-01-18 10:56:56.752 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/contrib/clustering/lib/simple-xml-2.7.1.jar' to classloader
+2017-01-18 10:56:56.752 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/dist/solr-clustering-5.4.0.jar' to classloader
+2017-01-18 10:56:57.369 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2017-01-18 10:56:57.388 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.4.0
+2017-01-18 10:56:57.547 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2017-01-18 10:56:57.596 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [fastnext] Schema name=default
+2017-01-18 10:56:57.845 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema default search field in schema is text
+2017-01-18 10:56:57.845 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema query parser default operator is AND
+2017-01-18 10:56:57.846 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2017-01-18 10:56:58.005 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext'
+2017-01-18 10:56:58.006 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'fastnext' using configuration from instancedir /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext
+2017-01-18 10:56:58.095 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2017-01-18 10:56:58.127 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore [[fastnext] ] Opening new SolrCore at [/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext], dataDir=[null]
+2017-01-18 10:56:58.132 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2017-01-18 10:56:58.160 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory return new directory for /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/data
+2017-01-18 10:56:58.161 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore New index directory detected: old=null new=/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/data/index/
+2017-01-18 10:56:58.185 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory return new directory for /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/data/index
+2017-01-18 10:56:58.201 INFO  (OldIndexDirectoryCleanupThreadForCore-fastnext) [   x:fastnext] o.a.s.c.SolrCore Looking for old index directories to cleanup for core fastnext in /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/data/
+2017-01-18 10:56:58.436 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2017-01-18 10:56:58.605 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-01-18 10:56:58.609 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-01-18 10:56:58.610 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-01-18 10:56:58.611 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-01-18 10:56:58.628 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2017-01-18 10:56:58.628 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2017-01-18 10:56:58.631 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2017-01-18 10:56:58.631 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/clustering,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2017-01-18 10:56:58.633 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2017-01-18 10:56:58.647 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-01-18 10:56:58.648 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-01-18 10:56:58.799 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-01-18 10:56:58.799 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-01-18 10:56:58.926 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@2b6d37fb; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bo,generation=420}
+2017-01-18 10:56:58.926 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 420
+2017-01-18 10:56:58.991 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@62b08ab[fastnext] main
+2017-01-18 10:56:59.059 WARN  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.ManagedResourceStorage Cannot write to config directory /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/conf; switching to use InMemory storage instead.
+2017-01-18 10:56:59.060 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.RestManager Initializing RestManager with initArgs: {}
+2017-01-18 10:56:59.160 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using InMemoryStorage
+2017-01-18 10:56:59.160 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2017-01-18 10:56:59.221 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.ClusteringComponent Initializing Clustering Engines
+2017-01-18 10:56:59.362 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.c.CarrotClusteringEngine Initializing Clustering Engine 'lingo'
+2017-01-18 10:56:59.375 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.ClusteringComponent Default engine for search results clustering: lingo [CarrotClusteringEngine]
+2017-01-18 10:56:59.375 WARN  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.ClusteringComponent No default engine for document clustering.
+2017-01-18 10:56:59.375 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.ClusteringComponent Finished Initializing Clustering Engines
+2017-01-18 10:56:59.391 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-01-18 10:56:59.393 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@62b08ab[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-01-18 10:56:59.393 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2017-01-18 10:56:59.396 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2017-01-18 10:56:59.396 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2017-01-18 10:56:59.402 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Took 8.0ms to seed version buckets with highest version 1556859489662009344
+2017-01-18 10:56:59.403 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CoreContainer registering core: fastnext
+2017-01-18 11:07:44.745 INFO  (qtp434176574-18) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-01-18 11:07:44.746 INFO  (qtp434176574-18) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2017-01-18 11:07:44.747 INFO  (qtp434176574-18) [   x:fastnext] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2017-01-18 11:07:44.748 INFO  (qtp434176574-18) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-01-18 11:07:44.748 INFO  (qtp434176574-18) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {deleteByQuery=*:* (-1556860281319063552),commit=} 0 404
+2017-01-18 11:07:44.775 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=true,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-01-18 11:07:44.778 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2017-01-18 11:07:44.778 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2017-01-18 11:07:44.778 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-01-18 11:07:44.779 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-01-18 11:07:44.779 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2017-01-18 11:07:44.779 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2017-01-18 11:07:44.779 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-01-18 11:07:44.779 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {optimize=,commit=} 0 4
+2017-01-18 11:32:01.119 INFO  (qtp434176574-16) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-01-18 11:32:01.162 INFO  (qtp434176574-16) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2017-01-18 11:32:01.163 INFO  (qtp434176574-16) [   x:fastnext] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2017-01-18 11:32:01.164 INFO  (qtp434176574-16) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-01-18 11:32:01.164 INFO  (qtp434176574-16) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {deleteByQuery=*:* (-1556861808637116416),commit=} 0 76
+2017-01-18 11:32:01.171 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=true,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-01-18 11:32:01.172 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2017-01-18 11:32:01.172 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2017-01-18 11:32:01.173 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-01-18 11:32:01.173 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-01-18 11:32:01.173 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2017-01-18 11:32:01.173 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2017-01-18 11:32:01.173 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-01-18 11:32:01.174 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {optimize=,commit=} 0 3
+2017-01-18 11:32:01.636 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-01-18 11:32:01.753 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@2b6d37fb; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bo,generation=420}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@2b6d37fb; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bp,generation=421}
+2017-01-18 11:32:01.754 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 421
+2017-01-18 11:32:01.878 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@5b74573a[fastnext] main
+2017-01-18 11:32:01.881 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-01-18 11:32:01.906 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@5b74573a[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_cu(5.4.0):C2)))}
+2017-01-18 11:32:01.907 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[djsapp.text1.1 (1556861808960077824), djsapp.text1.2 (1556861809208590336)],commit=} 0 522
+2017-01-18 11:32:30.741 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@6dc17b83{HTTP/1.1}{0.0.0.0:8983}
+2017-01-18 11:32:30.753 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=943081537
+2017-01-18 11:32:30.754 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.c.SolrCore [fastnext]  CLOSING SolrCore org.apache.solr.core.SolrCore@16f44214
+2017-01-18 11:32:30.756 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 closing DirectUpdateHandler2{commits=5,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=2,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=2,cumulative_deletesById=0,cumulative_deletesByQuery=2,cumulative_errors=0,transaction_logs_total_size=5146411,transaction_logs_total_number=10}
+2017-01-18 11:32:30.756 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.u.SolrCoreState Closing SolrCoreState
+2017-01-18 11:32:30.757 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2017-01-18 11:32:30.757 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2017-01-18 11:32:30.764 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Closing main searcher on request.
+2017-01-18 11:32:30.766 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2017-01-18 11:32:30.767 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.c.CachingDirectoryFactory looking to close /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/data/index [CachedDir<<refCount=0;path=/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/data/index;done=false>>]
+2017-01-18 11:32:30.767 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.c.CachingDirectoryFactory Closing directory: /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/data/index
+2017-01-18 11:32:30.767 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.c.CachingDirectoryFactory looking to close /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/data [CachedDir<<refCount=0;path=/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/data;done=false>>]
+2017-01-18 11:32:30.767 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.c.CachingDirectoryFactory Closing directory: /Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr/fastnext/data
+2017-01-18 11:32:30.771 INFO  (ShutdownMonitor) [   x:fastnext] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@4dfa3a9d{/solr,file:/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr-webapp/webapp/,UNAVAILABLE}{/Users/Akhyansh/Desktop/json-django-solr/django_json_solr/solr-5.4.0/server/solr-webapp/webapp}

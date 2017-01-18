@@ -1,0 +1,2 @@
+2016-04-10 08:22:45.841 INFO  (main) [   ] o.e.j.u.log Logging initialized @370ms
+2016-04-10 08:22:45.926 WARN  (main) [   ] o.e.j.x.XmlParser FATAL@file:/home/ubuntu/quablsource/solr-5.4.0/server/etc/jetty.xml line:18 col:69 : org.xml.sax.SAXParseException; systemId: file:/home/ubuntu/quablsource/solr-5.4.0/server/etc/jetty.xml; lineNumber: 18; columnNumber: 69; The value of attribute "default" associated with an element type "SystemProperty" must not contain the '<' character.

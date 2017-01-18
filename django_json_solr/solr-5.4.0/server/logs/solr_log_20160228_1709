@@ -1,0 +1,390 @@
+2016-02-28 11:13:27.266 INFO  (main) [   ] o.e.j.u.log Logging initialized @474ms
+2016-02-28 11:13:27.552 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2016-02-28 11:13:27.571 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-02-28 11:13:27.573 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/contexts/] at interval 0
+2016-02-28 11:13:28.254 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-02-28 11:13:28.265 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,STARTING}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-02-28 11:13:28.273 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=239465106@e45f292
+2016-02-28 11:13:28.286 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-02-28 11:13:28.287 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-02-28 11:13:28.287 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr'
+2016-02-28 11:13:28.288 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-02-28 11:13:28.288 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-02-28 11:13:28.293 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/solr.xml
+2016-02-28 11:13:28.478 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-02-28 11:13:28.514 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1795960102
+2016-02-28 11:13:28.514 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr]
+2016-02-28 11:13:28.515 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/lib to classpath: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/lib
+2016-02-28 11:13:28.529 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2016-02-28 11:13:28.779 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-02-28 11:13:28.782 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-02-28 11:13:28.782 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-02-28 11:13:28.837 INFO  (main) [   ] o.a.s.c.SolrZkServerProps Reading configuration from: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/zoo.cfg
+2016-02-28 11:13:28.843 INFO  (main) [   ] o.a.s.c.SolrZkServer STARTING EMBEDDED STANDALONE ZOOKEEPER SERVER at port 9983
+2016-02-28 11:13:29.347 INFO  (main) [   ] o.a.s.c.ZkContainer Zookeeper client=localhost:9983
+2016-02-28 11:13:29.492 INFO  (main) [   ] o.a.s.c.c.ConnectionManager Waiting for client to connect to ZooKeeper
+2016-02-28 11:13:29.667 INFO  (zkCallback-2-thread-1-processing-n:10.22.26.74:8983_solr) [   ] o.a.s.c.c.ConnectionManager Watcher org.apache.solr.common.cloud.ConnectionManager@7c72d974 name:ZooKeeperConnection Watcher:localhost:9983 got event WatchedEvent state:SyncConnected type:None path:null path:null type:None
+2016-02-28 11:13:29.667 INFO  (main) [   ] o.a.s.c.c.ConnectionManager Client is connected to ZooKeeper
+2016-02-28 11:13:29.721 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /overseer/queue
+2016-02-28 11:13:29.731 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /overseer/collection-queue-work
+2016-02-28 11:13:29.739 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /overseer/collection-map-running
+2016-02-28 11:13:29.744 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /overseer/collection-map-completed
+2016-02-28 11:13:29.749 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /overseer/collection-map-failure
+2016-02-28 11:13:29.803 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /live_nodes
+2016-02-28 11:13:29.807 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /collections
+2016-02-28 11:13:29.810 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /aliases.json
+2016-02-28 11:13:29.813 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /clusterstate.json
+2016-02-28 11:13:29.816 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /security.json
+2016-02-28 11:13:29.834 INFO  (main) [   ] o.a.s.c.ZkController Register node as live in ZooKeeper:/live_nodes/10.22.26.74:8983_solr
+2016-02-28 11:13:29.837 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /live_nodes/10.22.26.74:8983_solr
+2016-02-28 11:13:29.855 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /overseer_elect
+2016-02-28 11:13:29.858 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /overseer_elect/election
+2016-02-28 11:13:29.861 INFO  (main) [   ] o.a.s.c.Overseer Overseer (id=null) closing
+2016-02-28 11:13:29.863 INFO  (main) [   ] o.a.s.c.LeaderElector Joined leadership election with path: /overseer_elect/election/95463539280904192-10.22.26.74:8983_solr-n_0000000000
+2016-02-28 11:13:29.896 INFO  (main) [   ] o.a.s.c.OverseerElectionContext I am going to be the leader 10.22.26.74:8983_solr
+2016-02-28 11:13:29.901 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /overseer_elect/leader
+2016-02-28 11:13:29.904 INFO  (main) [   ] o.a.s.c.Overseer Overseer (id=95463539280904192-10.22.26.74:8983_solr-n_0000000000) starting
+2016-02-28 11:13:29.921 INFO  (main) [   ] o.a.s.c.c.SolrZkClient makePath: /overseer/queue-work
+2016-02-28 11:13:29.975 INFO  (main) [   ] o.a.s.c.OverseerAutoReplicaFailoverThread Starting OverseerAutoReplicaFailoverThread autoReplicaFailoverWorkLoopDelay=10000 autoReplicaFailoverWaitAfterExpiration=30000 autoReplicaFailoverBadNodeExpiration=60000
+2016-02-28 11:13:30.014 INFO  (OverseerCollectionConfigSetProcessor-95463539280904192-10.22.26.74:8983_solr-n_0000000000) [   ] o.a.s.c.OverseerTaskProcessor Process current queue of overseer operations
+2016-02-28 11:13:30.014 INFO  (main) [   ] o.a.s.c.c.ZkStateReader Updating cluster state from ZooKeeper... 
+2016-02-28 11:13:30.026 INFO  (OverseerStateUpdate-95463539280904192-10.22.26.74:8983_solr-n_0000000000) [   ] o.a.s.c.Overseer Starting to work on the main queue
+2016-02-28 11:13:30.161 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-02-28 11:13:30.161 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-02-28 11:13:30.196 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-02-28 11:13:30.279 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=fastnext, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext, absoluteInstDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/, dataDir=data}
+2016-02-28 11:13:30.279 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core fastnext in /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/
+2016-02-28 11:13:30.292 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=fastnext, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/new_core, absoluteInstDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/new_core/, dataDir=data}
+2016-02-28 11:13:30.293 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core fastnext in /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/new_core/
+2016-02-28 11:13:30.293 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 2 core definitions
+2016-02-28 11:13:30.295 ERROR (main) [   ] o.a.s.s.SolrDispatchFilter Could not start Solr. Check solr/home property and the logs
+2016-02-28 11:13:30.313 ERROR (main) [   ] o.a.s.c.SolrCore null:org.apache.solr.common.SolrException: Found multiple cores with the name [fastnext], with instancedirs [/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/] and [/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/new_core/]
+	at org.apache.solr.core.CoreContainer.checkForDuplicateCoreNames(CoreContainer.java:526)
+	at org.apache.solr.core.CoreContainer.load(CoreContainer.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:134)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:110)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:138)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:298)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:41)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:498)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:146)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:180)
+	at org.eclipse.jetty.deploy.providers.WebAppProvider.fileAdded(WebAppProvider.java:461)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:64)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:609)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:528)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:391)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:313)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:150)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:560)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:235)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1255)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:321)
+	at org.eclipse.jetty.start.Main.start(Main.java:817)
+	at org.eclipse.jetty.start.Main.main(Main.java:112)
+
+2016-02-28 11:13:30.313 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-02-28 11:13:30.340 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,AVAILABLE}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp}
+2016-02-28 11:13:30.346 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@6a0e49df{HTTP/1.1}{0.0.0.0:8983}
+2016-02-28 11:13:30.346 INFO  (main) [   ] o.e.j.s.Server Started @3558ms
+2016-02-28 11:13:43.522 INFO  (qtp434176574-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1456658023493} status=0 QTime=10 
+2016-02-28 11:13:43.672 INFO  (qtp434176574-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1456658023549} status=0 QTime=112 
+2016-02-28 11:13:46.576 INFO  (qtp434176574-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1456658026563} status=0 QTime=0 
+2016-02-28 11:14:44.543 INFO  (qtp434176574-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1456658084526} status=0 QTime=0 
+2016-02-28 11:14:44.707 INFO  (qtp434176574-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1456658084593} status=0 QTime=102 
+2016-02-28 11:14:50.542 INFO  (qtp434176574-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1456658090529} status=0 QTime=0 
+2016-02-28 11:14:50.670 INFO  (qtp434176574-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1456658090567} status=0 QTime=58 
+2016-02-28 11:14:55.318 INFO  (qtp434176574-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1456658095304} status=0 QTime=0 
+2016-02-28 11:15:31.616 INFO  (qtp434176574-18) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=data&name=new_core&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=new_core&config=solrconfig.xml&_=1456658131600
+2016-02-28 11:15:31.663 INFO  (qtp434176574-18) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=new_core, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=new_core, absoluteInstDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/new_core/, dataDir=data}
+2016-02-28 11:15:31.666 INFO  (qtp434176574-18) [c:new_core   x:new_core] o.a.s.c.ZkController publishing state=down
+2016-02-28 11:15:31.666 INFO  (qtp434176574-18) [c:new_core   x:new_core] o.a.s.c.ZkController numShards not found on descriptor - reading it from system property
+2016-02-28 11:15:31.708 INFO  (qtp434176574-18) [c:new_core   x:new_core] o.a.s.c.ZkController look for our core node name
+2016-02-28 11:15:31.711 INFO  (OverseerStateUpdate-95463539280904192-10.22.26.74:8983_solr-n_0000000000) [   ] o.a.s.c.Overseer processMessage: queueSize: 1, message = {
+  "core":"new_core",
+  "roles":null,
+  "base_url":"http://10.22.26.74:8983/solr",
+  "node_name":"10.22.26.74:8983_solr",
+  "state":"down",
+  "shard":null,
+  "collection":"new_core",
+  "operation":"state"} current state version: 0
+2016-02-28 11:15:31.747 INFO  (OverseerStateUpdate-95463539280904192-10.22.26.74:8983_solr-n_0000000000) [   ] o.a.s.c.o.ReplicaMutator Update state numShards=null message={
+  "core":"new_core",
+  "roles":null,
+  "base_url":"http://10.22.26.74:8983/solr",
+  "node_name":"10.22.26.74:8983_solr",
+  "state":"down",
+  "shard":null,
+  "collection":"new_core",
+  "operation":"state"}
+2016-02-28 11:15:31.749 INFO  (OverseerStateUpdate-95463539280904192-10.22.26.74:8983_solr-n_0000000000) [   ] o.a.s.c.o.ReplicaMutator Assigning new node to shard shard=shard1
+2016-02-28 11:15:31.780 INFO  (zkCallback-2-thread-2-processing-n:10.22.26.74:8983_solr) [   ] o.a.s.c.c.ZkStateReader A cluster state change: WatchedEvent state:SyncConnected type:NodeDataChanged path:/clusterstate.json, has occurred - updating... (live nodes size: 1)
+2016-02-28 11:15:32.714 INFO  (qtp434176574-18) [c:new_core   x:new_core] o.a.s.c.ZkController waiting to find shard id in clusterstate for new_core
+2016-02-28 11:15:32.714 INFO  (qtp434176574-18) [c:new_core   x:new_core] o.a.s.c.ZkController Check for collection zkNode:new_core
+2016-02-28 11:15:32.715 INFO  (qtp434176574-18) [c:new_core   x:new_core] o.a.s.c.ZkController Creating collection in ZooKeeper:new_core
+2016-02-28 11:15:32.715 INFO  (qtp434176574-18) [c:new_core   x:new_core] o.a.s.c.ZkController Looking for collection configName
+2016-02-28 11:15:32.716 INFO  (qtp434176574-18) [c:new_core   x:new_core] o.a.s.c.ZkController Could not find collection configName - pausing for 3 seconds and trying again - try: 1
+2016-02-28 11:15:35.721 INFO  (qtp434176574-18) [c:new_core   x:new_core] o.a.s.c.ZkController Could not find collection configName - pausing for 3 seconds and trying again - try: 2
+2016-02-28 11:15:38.722 INFO  (qtp434176574-18) [c:new_core   x:new_core] o.a.s.c.ZkController Could not find collection configName - pausing for 3 seconds and trying again - try: 3
+2016-02-28 11:15:41.727 INFO  (qtp434176574-18) [c:new_core   x:new_core] o.a.s.c.ZkController Could not find collection configName - pausing for 3 seconds and trying again - try: 4
+2016-02-28 11:15:44.734 INFO  (qtp434176574-18) [c:new_core   x:new_core] o.a.s.c.ZkController Could not find collection configName - pausing for 3 seconds and trying again - try: 5
+2016-02-28 11:15:47.737 ERROR (qtp434176574-18) [c:new_core   x:new_core] o.a.s.c.ZkController Could not find configName for collection new_core
+2016-02-28 11:15:47.739 ERROR (qtp434176574-18) [c:new_core   x:new_core] o.a.s.c.CoreContainer Error creating core [new_core]: Could not find configName for collection new_core found:null
+org.apache.solr.common.cloud.ZooKeeperException: Could not find configName for collection new_core found:null
+	at org.apache.solr.cloud.ZkController.getConfName(ZkController.java:1458)
+	at org.apache.solr.cloud.ZkController.createCollectionZkNode(ZkController.java:1362)
+	at org.apache.solr.cloud.CloudConfigSetService.createCoreResourceLoader(CloudConfigSetService.java:38)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:76)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:740)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:716)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:623)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:204)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:184)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:664)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:438)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2016-02-28 11:15:47.742 INFO  (qtp434176574-18) [   ] o.a.s.c.c.ZkStateReader Removing watch for uninteresting collection new_core
+2016-02-28 11:15:47.745 ERROR (qtp434176574-18) [   ] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Error CREATEing SolrCore 'new_core': Unable to create core [new_core] Caused by: Could not find configName for collection new_core found:null
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:656)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:204)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:184)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:664)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:438)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [new_core]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:756)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:716)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:623)
+	... 27 more
+Caused by: org.apache.solr.common.cloud.ZooKeeperException: Could not find configName for collection new_core found:null
+	at org.apache.solr.cloud.ZkController.getConfName(ZkController.java:1458)
+	at org.apache.solr.cloud.ZkController.createCollectionZkNode(ZkController.java:1362)
+	at org.apache.solr.cloud.CloudConfigSetService.createCoreResourceLoader(CloudConfigSetService.java:38)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:76)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:740)
+	... 29 more
+
+2016-02-28 11:15:47.745 INFO  (OverseerStateUpdate-95463539280904192-10.22.26.74:8983_solr-n_0000000000) [   ] o.a.s.c.Overseer processMessage: queueSize: 1, message = {
+  "operation":"deletecore",
+  "core":"new_core",
+  "node_name":"10.22.26.74:8983_solr",
+  "collection":"new_core",
+  "core_node_name":"core_node1"} current state version: 1
+2016-02-28 11:15:47.746 INFO  (qtp434176574-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=new_core&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=new_core&config=solrconfig.xml&_=1456658131600} status=400 QTime=16130 
+2016-02-28 11:15:47.855 INFO  (OverseerStateUpdate-95463539280904192-10.22.26.74:8983_solr-n_0000000000) [   ] o.a.s.c.o.ZkStateWriter going to delete_collection /collections/new_core/state.json
+2016-02-28 11:15:47.858 INFO  (zkCallback-2-thread-2-processing-n:10.22.26.74:8983_solr) [   ] o.a.s.c.c.ZkStateReader A cluster state change: WatchedEvent state:SyncConnected type:NodeDataChanged path:/clusterstate.json, has occurred - updating... (live nodes size: 1)
+2016-02-28 11:16:07.090 INFO  (qtp434176574-16) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=data&name=new_core&indexInfo=false&action=CREATE&collection=new_core&shard=&wt=json&instanceDir=new_core&config=solrconfig.xml&_=1456658167077
+2016-02-28 11:16:07.091 INFO  (qtp434176574-16) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=new_core, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=new_core, collection=new_core, absoluteInstDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/new_core/, dataDir=data}
+2016-02-28 11:16:07.093 INFO  (qtp434176574-16) [c:new_core   x:new_core] o.a.s.c.ZkController publishing state=down
+2016-02-28 11:16:07.093 INFO  (qtp434176574-16) [c:new_core   x:new_core] o.a.s.c.ZkController numShards not found on descriptor - reading it from system property
+2016-02-28 11:16:07.095 INFO  (qtp434176574-16) [c:new_core   x:new_core] o.a.s.c.ZkController look for our core node name
+2016-02-28 11:16:07.096 INFO  (OverseerStateUpdate-95463539280904192-10.22.26.74:8983_solr-n_0000000000) [   ] o.a.s.c.Overseer processMessage: queueSize: 1, message = {
+  "core":"new_core",
+  "roles":null,
+  "base_url":"http://10.22.26.74:8983/solr",
+  "node_name":"10.22.26.74:8983_solr",
+  "state":"down",
+  "shard":null,
+  "collection":"new_core",
+  "operation":"state"} current state version: 2
+2016-02-28 11:16:07.096 INFO  (OverseerStateUpdate-95463539280904192-10.22.26.74:8983_solr-n_0000000000) [   ] o.a.s.c.o.ReplicaMutator Update state numShards=null message={
+  "core":"new_core",
+  "roles":null,
+  "base_url":"http://10.22.26.74:8983/solr",
+  "node_name":"10.22.26.74:8983_solr",
+  "state":"down",
+  "shard":null,
+  "collection":"new_core",
+  "operation":"state"}
+2016-02-28 11:16:07.096 INFO  (OverseerStateUpdate-95463539280904192-10.22.26.74:8983_solr-n_0000000000) [   ] o.a.s.c.o.ReplicaMutator Assigning new node to shard shard=shard1
+2016-02-28 11:16:07.100 INFO  (zkCallback-2-thread-3-processing-n:10.22.26.74:8983_solr) [   ] o.a.s.c.c.ZkStateReader A cluster state change: WatchedEvent state:SyncConnected type:NodeDataChanged path:/clusterstate.json, has occurred - updating... (live nodes size: 1)
+2016-02-28 11:16:08.096 INFO  (qtp434176574-16) [c:new_core   x:new_core] o.a.s.c.ZkController waiting to find shard id in clusterstate for new_core
+2016-02-28 11:16:08.097 INFO  (qtp434176574-16) [c:new_core   x:new_core] o.a.s.c.ZkController Check for collection zkNode:new_core
+2016-02-28 11:16:08.098 INFO  (qtp434176574-16) [c:new_core   x:new_core] o.a.s.c.ZkController Creating collection in ZooKeeper:new_core
+2016-02-28 11:16:08.098 INFO  (qtp434176574-16) [c:new_core   x:new_core] o.a.s.c.ZkController Looking for collection configName
+2016-02-28 11:16:08.099 INFO  (qtp434176574-16) [c:new_core   x:new_core] o.a.s.c.ZkController Could not find collection configName - pausing for 3 seconds and trying again - try: 1
+2016-02-28 11:16:11.103 INFO  (qtp434176574-16) [c:new_core   x:new_core] o.a.s.c.ZkController Could not find collection configName - pausing for 3 seconds and trying again - try: 2
+2016-02-28 11:16:14.108 INFO  (qtp434176574-16) [c:new_core   x:new_core] o.a.s.c.ZkController Could not find collection configName - pausing for 3 seconds and trying again - try: 3
+2016-02-28 11:16:17.113 INFO  (qtp434176574-16) [c:new_core   x:new_core] o.a.s.c.ZkController Could not find collection configName - pausing for 3 seconds and trying again - try: 4
+2016-02-28 11:16:20.114 INFO  (qtp434176574-16) [c:new_core   x:new_core] o.a.s.c.ZkController Could not find collection configName - pausing for 3 seconds and trying again - try: 5
+2016-02-28 11:16:23.120 ERROR (qtp434176574-16) [c:new_core   x:new_core] o.a.s.c.ZkController Could not find configName for collection new_core
+2016-02-28 11:16:23.120 ERROR (qtp434176574-16) [c:new_core   x:new_core] o.a.s.c.CoreContainer Error creating core [new_core]: Could not find configName for collection new_core found:null
+org.apache.solr.common.cloud.ZooKeeperException: Could not find configName for collection new_core found:null
+	at org.apache.solr.cloud.ZkController.getConfName(ZkController.java:1458)
+	at org.apache.solr.cloud.ZkController.createCollectionZkNode(ZkController.java:1362)
+	at org.apache.solr.cloud.CloudConfigSetService.createCoreResourceLoader(CloudConfigSetService.java:38)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:76)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:740)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:716)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:623)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:204)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:184)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:664)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:438)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2016-02-28 11:16:23.121 INFO  (qtp434176574-16) [   ] o.a.s.c.c.ZkStateReader Removing watch for uninteresting collection new_core
+2016-02-28 11:16:23.123 ERROR (qtp434176574-16) [   ] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Error CREATEing SolrCore 'new_core': Unable to create core [new_core] Caused by: Could not find configName for collection new_core found:null
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:656)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:204)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:184)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:664)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:438)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [new_core]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:756)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:716)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:623)
+	... 27 more
+Caused by: org.apache.solr.common.cloud.ZooKeeperException: Could not find configName for collection new_core found:null
+	at org.apache.solr.cloud.ZkController.getConfName(ZkController.java:1458)
+	at org.apache.solr.cloud.ZkController.createCollectionZkNode(ZkController.java:1362)
+	at org.apache.solr.cloud.CloudConfigSetService.createCoreResourceLoader(CloudConfigSetService.java:38)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:76)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:740)
+	... 29 more
+
+2016-02-28 11:16:23.124 INFO  (qtp434176574-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=new_core&indexInfo=false&action=CREATE&collection=new_core&shard=&wt=json&instanceDir=new_core&config=solrconfig.xml&_=1456658167077} status=400 QTime=16034 
+2016-02-28 11:16:23.124 INFO  (OverseerStateUpdate-95463539280904192-10.22.26.74:8983_solr-n_0000000000) [   ] o.a.s.c.Overseer processMessage: queueSize: 1, message = {
+  "operation":"deletecore",
+  "core":"new_core",
+  "node_name":"10.22.26.74:8983_solr",
+  "collection":"new_core",
+  "core_node_name":"core_node1"} current state version: 3
+2016-02-28 11:16:23.231 INFO  (OverseerStateUpdate-95463539280904192-10.22.26.74:8983_solr-n_0000000000) [   ] o.a.s.c.o.ZkStateWriter going to delete_collection /collections/new_core/state.json
+2016-02-28 11:16:23.233 INFO  (zkCallback-2-thread-3-processing-n:10.22.26.74:8983_solr) [   ] o.a.s.c.c.ZkStateReader A cluster state change: WatchedEvent state:SyncConnected type:NodeDataChanged path:/clusterstate.json, has occurred - updating... (live nodes size: 1)
+2016-02-28 11:17:21.706 INFO  (qtp434176574-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/properties params={wt=json&_=1456658241691} status=0 QTime=0 
+2016-02-28 11:39:34.479 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@6a0e49df{HTTP/1.1}{0.0.0.0:8983}
+2016-02-28 11:39:34.522 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1795960102
+2016-02-28 11:39:34.527 INFO  (ShutdownMonitor) [   ] o.a.s.c.Overseer Overseer (id=95463539280904192-10.22.26.74:8983_solr-n_0000000000) closing
+2016-02-28 11:39:34.528 INFO  (OverseerStateUpdate-95463539280904192-10.22.26.74:8983_solr-n_0000000000) [   ] o.a.s.c.Overseer Overseer Loop exiting : 10.22.26.74:8983_solr
+2016-02-28 11:39:34.545 ERROR (main-EventThread) [   ] o.a.z.ClientCnxn Error while calling watcher 
+java.util.concurrent.RejectedExecutionException: Task org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1@51681a5b rejected from org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor@35330b38[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 20]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2047)
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:823)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1369)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.execute(ExecutorUtil.java:215)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.solr.common.cloud.SolrZkClient$3.process(SolrZkClient.java:261)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2016-02-28 11:39:34.545 WARN  (Thread-12) [   ] o.a.z.s.ZooKeeperServerMain Server interrupted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1245)
+	at java.lang.Thread.join(Thread.java:1319)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.join(NIOServerCnxnFactory.java:302)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:114)
+	at org.apache.solr.cloud.SolrZkServer$1.run(SolrZkServer.java:120)
+2016-02-28 11:39:34.546 INFO  (Thread-12) [   ] o.a.s.c.SolrZkServer ZooKeeper Server exited.
+2016-02-28 11:39:34.579 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,UNAVAILABLE}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp}

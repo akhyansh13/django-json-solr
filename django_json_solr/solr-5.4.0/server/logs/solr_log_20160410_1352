@@ -1,0 +1,79 @@
+2016-04-10 13:32:20.735 INFO  (main) [   ] o.e.j.u.log Logging initialized @356ms
+2016-04-10 13:32:21.023 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2016-04-10 13:32:21.039 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-04-10 13:32:21.041 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/home/ubuntu/quablsource/solr-5.4.0/server/contexts/] at interval 0
+2016-04-10 13:32:21.745 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-04-10 13:32:21.780 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@1924ed52{/solr,file:/home/ubuntu/quablsource/solr-5.4.0/server/solr-webapp/webapp/,STARTING}{/home/ubuntu/quablsource/solr-5.4.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-04-10 13:32:21.799 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=426668492@196e71cc
+2016-04-10 13:32:21.824 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-04-10 13:32:21.824 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/ubuntu/quablsource/solr-5.4.0/server/solr
+2016-04-10 13:32:21.824 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/ubuntu/quablsource/solr-5.4.0/server/solr'
+2016-04-10 13:32:21.825 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-04-10 13:32:21.825 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/ubuntu/quablsource/solr-5.4.0/server/solr
+2016-04-10 13:32:21.830 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/ubuntu/quablsource/solr-5.4.0/server/solr/solr.xml
+2016-04-10 13:32:21.918 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /home/ubuntu/quablsource/solr-5.4.0/server/solr
+2016-04-10 13:32:21.943 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 845207530
+2016-04-10 13:32:21.943 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/ubuntu/quablsource/solr-5.4.0/server/solr]
+2016-04-10 13:32:21.944 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /home/ubuntu/quablsource/solr-5.4.0/server/solr/lib to classpath: /home/ubuntu/quablsource/solr-5.4.0/server/solr/lib
+2016-04-10 13:32:21.957 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2016-04-10 13:32:22.261 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-04-10 13:32:22.265 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-04-10 13:32:22.266 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-04-10 13:32:22.268 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-04-10 13:32:22.268 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-04-10 13:32:22.299 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /home/ubuntu/quablsource/solr-5.4.0/server/solr
+2016-04-10 13:32:22.318 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=fastnext, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext, absoluteInstDir=/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/, dataDir=data}
+2016-04-10 13:32:22.318 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core fastnext in /home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/
+2016-04-10 13:32:22.318 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2016-04-10 13:32:22.326 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext'
+2016-04-10 13:32:22.326 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-04-10 13:32:22.327 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/ubuntu/quablsource/solr-5.4.0/server/solr
+2016-04-10 13:32:22.331 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/home/ubuntu/quablsource/solr-5.4.0/server
+2016-04-10 13:32:22.331 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-04-10 13:32:22.361 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@1924ed52{/solr,file:/home/ubuntu/quablsource/solr-5.4.0/server/solr-webapp/webapp/,AVAILABLE}{/home/ubuntu/quablsource/solr-5.4.0/server/solr-webapp/webapp}
+2016-04-10 13:32:22.382 WARN  (main) [   ] o.e.j.u.c.AbstractLifeCycle FAILED ServerConnector@6d44cf50{HTTP/1.1}{0.0.0.0:8983}: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1255)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:321)
+	at org.eclipse.jetty.start.Main.start(Main.java:817)
+	at org.eclipse.jetty.start.Main.main(Main.java:112)
+2016-04-10 13:32:22.386 WARN  (main) [   ] o.e.j.u.c.AbstractLifeCycle FAILED org.eclipse.jetty.server.Server@370d5045: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1255)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:321)
+	at org.eclipse.jetty.start.Main.start(Main.java:817)
+	at org.eclipse.jetty.start.Main.main(Main.java:112)

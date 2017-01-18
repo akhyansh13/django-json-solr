@@ -1,0 +1,167 @@
+2016-06-09 06:20:58.813 INFO  (main) [   ] o.e.j.u.log Logging initialized @458ms
+2016-06-09 06:20:59.144 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2016-06-09 06:20:59.162 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-06-09 06:20:59.164 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/contexts/] at interval 0
+2016-06-09 06:20:59.968 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-06-09 06:20:59.980 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@4dfa3a9d{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,STARTING}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-06-09 06:20:59.989 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1596000437@5f2108b5
+2016-06-09 06:21:00.006 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-06-09 06:21:00.006 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-06-09 06:21:00.007 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr'
+2016-06-09 06:21:00.008 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-06-09 06:21:00.008 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-06-09 06:21:00.014 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/solr.xml
+2016-06-09 06:21:00.171 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-06-09 06:21:00.200 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 943081537
+2016-06-09 06:21:00.200 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr]
+2016-06-09 06:21:00.201 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/lib to classpath: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/lib
+2016-06-09 06:21:00.213 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2016-06-09 06:21:00.459 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-06-09 06:21:00.461 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-06-09 06:21:00.462 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-06-09 06:21:00.464 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-06-09 06:21:00.464 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-06-09 06:21:00.522 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-06-09 06:21:00.570 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=fastnext, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext, absoluteInstDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/, dataDir=data}
+2016-06-09 06:21:00.570 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core fastnext in /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/
+2016-06-09 06:21:00.571 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2016-06-09 06:21:00.575 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext'
+2016-06-09 06:21:00.575 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-06-09 06:21:00.576 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-06-09 06:21:00.576 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server
+2016-06-09 06:21:00.576 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-06-09 06:21:00.597 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@4dfa3a9d{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,AVAILABLE}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp}
+2016-06-09 06:21:00.614 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2016-06-09 06:21:00.616 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2016-06-09 06:21:00.624 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@1269f881{HTTP/1.1}{0.0.0.0:8983}
+2016-06-09 06:21:00.625 INFO  (main) [   ] o.e.j.s.Server Started @2272ms
+2016-06-09 06:21:00.642 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/attributes-binder-1.2.3.jar' to classloader
+2016-06-09 06:21:00.642 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/carrot2-guava-18.0.jar' to classloader
+2016-06-09 06:21:00.643 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/carrot2-mini-3.10.4.jar' to classloader
+2016-06-09 06:21:00.643 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/jackson-annotations-2.5.4.jar' to classloader
+2016-06-09 06:21:00.643 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/jackson-databind-2.5.4.jar' to classloader
+2016-06-09 06:21:00.643 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2016-06-09 06:21:00.643 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2016-06-09 06:21:00.643 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/simple-xml-2.7.1.jar' to classloader
+2016-06-09 06:21:00.643 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/dist/solr-clustering-5.4.0.jar' to classloader
+2016-06-09 06:21:00.878 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2016-06-09 06:21:00.886 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.4.0
+2016-06-09 06:21:01.059 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2016-06-09 06:21:01.128 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [fastnext] Schema name=default
+2016-06-09 06:21:01.354 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema default search field in schema is text
+2016-06-09 06:21:01.355 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema query parser default operator is AND
+2016-06-09 06:21:01.355 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2016-06-09 06:21:01.479 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext'
+2016-06-09 06:21:01.480 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'fastnext' using configuration from instancedir /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext
+2016-06-09 06:21:01.496 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2016-06-09 06:21:01.507 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore [[fastnext] ] Opening new SolrCore at [/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext], dataDir=[null]
+2016-06-09 06:21:01.509 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2016-06-09 06:21:01.522 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory return new directory for /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data
+2016-06-09 06:21:01.522 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore New index directory detected: old=null new=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index/
+2016-06-09 06:21:01.523 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory return new directory for /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index
+2016-06-09 06:21:01.536 INFO  (OldIndexDirectoryCleanupThreadForCore-fastnext) [   x:fastnext] o.a.s.c.SolrCore Looking for old index directories to cleanup for core fastnext in /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/
+2016-06-09 06:21:01.667 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2016-06-09 06:21:01.731 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-06-09 06:21:01.734 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-06-09 06:21:01.735 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-06-09 06:21:01.737 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-06-09 06:21:01.769 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2016-06-09 06:21:01.771 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2016-06-09 06:21:01.774 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2016-06-09 06:21:01.774 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/clustering,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2016-06-09 06:21:01.776 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2016-06-09 06:21:01.794 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2016-06-09 06:21:01.794 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2016-06-09 06:21:01.832 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2016-06-09 06:21:01.832 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2016-06-09 06:21:02.374 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@aabdb51; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bn,generation=419}
+2016-06-09 06:21:02.374 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 419
+2016-06-09 06:21:02.862 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@10117b70[fastnext] main
+2016-06-09 06:21:02.878 WARN  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.ManagedResourceStorage Cannot write to config directory /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/conf; switching to use InMemory storage instead.
+2016-06-09 06:21:02.885 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.RestManager Initializing RestManager with initArgs: {}
+2016-06-09 06:21:02.899 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using InMemoryStorage
+2016-06-09 06:21:02.899 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2016-06-09 06:21:02.911 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.ClusteringComponent Initializing Clustering Engines
+2016-06-09 06:21:02.966 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.c.CarrotClusteringEngine Initializing Clustering Engine 'lingo'
+2016-06-09 06:21:02.981 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.ClusteringComponent Default engine for search results clustering: lingo [CarrotClusteringEngine]
+2016-06-09 06:21:02.981 WARN  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.ClusteringComponent No default engine for document clustering.
+2016-06-09 06:21:02.981 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.ClusteringComponent Finished Initializing Clustering Engines
+2016-06-09 06:21:02.982 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2016-06-09 06:21:02.983 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@10117b70[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_ao(5.4.0):C98060/4787:delGen=2) Uninverting(_95(5.4.0):C1000) Uninverting(_a4(5.4.0):C1000) Uninverting(_ay(5.4.0):c10000) Uninverting(_ag(5.4.0):C1000) Uninverting(_ai(5.4.0):C1000) Uninverting(_ak(5.4.0):C1000) Uninverting(_bs(5.4.0):c10000) Uninverting(_cd(5.4.0):c10000) Uninverting(_b8(5.4.0):c10000) Uninverting(_bi(5.4.0):c10000) Uninverting(_cn(5.4.0):c10000) Uninverting(_c3(5.4.0):c10000) Uninverting(_ci(5.4.0):C1000) Uninverting(_co(5.4.0):C1000) Uninverting(_cp(5.4.0):C1000) Uninverting(_cq(5.4.0):C1000) Uninverting(_cr(5.4.0):C1000) Uninverting(_cs(5.4.0):C1000) Uninverting(_ct(5.4.0):C93)))}
+2016-06-09 06:21:02.985 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2016-06-09 06:21:02.988 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2016-06-09 06:21:03.031 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.VersionInfo Found MAX value 1536565268004732930 from Terms for _version_ in index
+2016-06-09 06:21:03.038 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Took 51.0ms to seed version buckets with highest version 1536565268004732930
+2016-06-09 06:21:03.039 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CoreContainer registering core: fastnext
+2016-06-09 06:22:40.714 INFO  (qtp434176574-18) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/clustering params={q=bengaluru&indent=true&wt=json} hits=10003 status=0 QTime=10629 
+2016-06-09 10:47:50.153 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/clustering params={q=bengaluru&indent=true&wt=json} hits=10003 status=0 QTime=2787 
+2016-06-09 10:53:32.986 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/clustering params={q=machine+learning&indent=true&wt=json} hits=19902 status=0 QTime=19461 
+2016-06-09 10:58:48.059 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/clustering params={q=machine+learning+bengaluru&indent=true&wt=json} hits=1116 status=0 QTime=20049 
+2016-06-09 12:43:46.267 INFO  (qtp434176574-16) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/clustering params={q=machine+learning&indent=true&wt=json} hits=19902 status=0 QTime=8425 
+2016-06-10 12:59:17.788 INFO  (qtp434176574-18) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(phot)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=5 status=0 QTime=3416 
+2016-06-10 12:59:17.841 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photog)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=7 status=0 QTime=3552 
+2016-06-10 12:59:17.788 INFO  (qtp434176574-16) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(pho)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=15 status=0 QTime=3402 
+2016-06-10 12:59:18.477 INFO  (qtp434176574-13) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(ph)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=909 status=0 QTime=4346 
+2016-06-10 12:59:18.520 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(p)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=35584 status=0 QTime=4388 
+2016-06-10 12:59:18.830 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=photography&start=0&rows=500&wt=json} hits=7517 status=0 QTime=2009 
+2016-06-10 12:59:18.830 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photo)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=3086 status=0 QTime=4670 
+2016-06-10 12:59:21.412 INFO  (qtp434176574-33) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photog)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=7&wt=json} hits=7 status=0 QTime=150 
+2016-06-10 12:59:22.874 INFO  (qtp434176574-18) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photogr)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=0 status=0 QTime=2 
+2016-06-10 12:59:22.879 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photogra)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=0 status=0 QTime=7 
+2016-06-10 12:59:22.887 INFO  (qtp434176574-33) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photogra)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=0 status=0 QTime=1 
+2016-06-10 12:59:23.180 INFO  (qtp434176574-13) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photogra)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=0&wt=json} hits=0 status=0 QTime=0 
+2016-06-10 12:59:23.226 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograp)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=15 status=0 QTime=2 
+2016-06-10 12:59:23.409 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photogra)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=0&wt=json} hits=0 status=0 QTime=231 
+2016-06-10 12:59:23.535 INFO  (qtp434176574-18) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograp)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=15 status=0 QTime=0 
+2016-06-10 12:59:24.114 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograp)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=15 status=0 QTime=1 
+2016-06-10 12:59:24.248 INFO  (qtp434176574-33) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograp)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=15 status=0 QTime=1 
+2016-06-10 12:59:24.413 INFO  (qtp434176574-13) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograp)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=15&wt=json} hits=15 status=0 QTime=0 
+2016-06-10 12:59:24.705 INFO  (qtp434176574-18) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograp)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=15&wt=json} hits=15 status=0 QTime=1 
+2016-06-10 12:59:24.857 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograph)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=2052 status=0 QTime=41 
+2016-06-10 12:59:24.860 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograph)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=2052 status=0 QTime=156 
+2016-06-10 12:59:24.866 INFO  (qtp434176574-33) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograph)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=2052 status=0 QTime=121 
+2016-06-10 12:59:24.933 INFO  (qtp434176574-13) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograph)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=2052 status=0 QTime=229 
+2016-06-10 12:59:24.933 INFO  (qtp434176574-34) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograph)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=2052 status=0 QTime=61 
+2016-06-10 12:59:24.935 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograph)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=2052 status=0 QTime=120 
+2016-06-10 12:59:25.401 INFO  (qtp434176574-18) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograph)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=2052 status=0 QTime=1 
+2016-06-10 12:59:25.423 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograph)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=2052 status=0 QTime=2 
+2016-06-10 12:59:25.535 INFO  (qtp434176574-33) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photograph)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=2052 status=0 QTime=131 
+2016-06-10 12:59:25.665 INFO  (qtp434176574-34) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photography)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=7517 status=0 QTime=239 
+2016-06-10 12:59:26.999 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(photography)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=7517 status=0 QTime=1 
+2016-06-10 12:59:29.028 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=photography&start=0&rows=500&wt=json} hits=7517 status=0 QTime=123 
+2016-06-10 13:00:34.368 INFO  (qtp434176574-13) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/clustering params={q=photography&indent=true&wt=json} hits=7517 status=0 QTime=12499 
+2016-06-10 13:02:02.721 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/clustering params={q=photography&indent=true&wt=json} hits=7517 status=0 QTime=4529 
+2016-06-10 13:06:26.158 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/clustering params={q=photography+bengaluru&indent=true&wt=json} hits=498 status=0 QTime=8414 
+2016-06-10 13:37:04.727 INFO  (qtp434176574-34) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(d)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=12035 status=0 QTime=755 
+2016-06-10 13:37:04.754 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(de)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=8728 status=0 QTime=293 
+2016-06-10 13:37:04.754 INFO  (qtp434176574-33) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(des)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=8728 status=0 QTime=129 
+2016-06-10 13:37:05.018 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(desi)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=54 status=0 QTime=32 
+2016-06-10 13:37:05.241 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(desin)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=37 status=0 QTime=38 
+2016-06-10 13:37:05.821 INFO  (qtp434176574-18) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(desi)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=54 status=0 QTime=0 
+2016-06-10 13:37:06.661 INFO  (qtp434176574-13) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(desi)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=54 status=0 QTime=1 
+2016-06-10 13:37:06.897 INFO  (qtp434176574-34) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(desi)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=54 status=0 QTime=1 
+2016-06-10 13:37:06.926 INFO  (qtp434176574-33) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(desi)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=54 status=0 QTime=1 
+2016-06-10 13:37:08.527 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(desig)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=52 status=0 QTime=2 
+2016-06-10 13:37:08.853 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=86931 status=0 QTime=335 
+2016-06-10 13:37:08.865 INFO  (qtp434176574-13) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=86931 status=0 QTime=134 
+2016-06-10 13:37:09.718 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+che)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=137 status=0 QTime=1067 
+2016-06-10 13:37:09.718 INFO  (qtp434176574-34) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+ch)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=302 status=0 QTime=870 
+2016-06-10 13:37:10.096 INFO  (qtp434176574-18) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+c)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=56729 status=0 QTime=1575 
+2016-06-10 13:37:11.731 INFO  (qtp434176574-33) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+che)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=137 status=0 QTime=1 
+2016-06-10 13:37:12.146 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+che)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=137 status=0 QTime=1 
+2016-06-10 13:37:12.602 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+che)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=137 status=0 QTime=1 
+2016-06-10 13:37:12.602 INFO  (qtp434176574-34) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+che)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=137 status=0 QTime=1 
+2016-06-10 13:37:12.869 INFO  (qtp434176574-33) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+chenn)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=0 status=0 QTime=66 
+2016-06-10 13:37:12.930 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+chenna)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=11 status=0 QTime=7 
+2016-06-10 13:37:12.930 INFO  (qtp434176574-34) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+chenna)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=11 status=0 QTime=7 
+2016-06-10 13:37:12.931 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+chenna)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=11 status=0 QTime=1 
+2016-06-10 13:37:12.965 INFO  (qtp434176574-18) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+chen)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=211 status=0 QTime=161 
+2016-06-10 13:37:12.966 INFO  (qtp434176574-13) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+chen)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=211 status=0 QTime=252 
+2016-06-10 13:37:12.967 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+chen)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=211 status=0 QTime=243 
+2016-06-10 13:37:13.270 INFO  (qtp434176574-33) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+chenna)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=11&wt=json} hits=11 status=0 QTime=1 
+2016-06-10 13:37:13.299 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+chenna)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=11&wt=json} hits=11 status=0 QTime=3 
+2016-06-10 13:37:14.699 INFO  (qtp434176574-34) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+chennai)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=4905 status=0 QTime=21 
+2016-06-10 13:37:14.706 INFO  (qtp434176574-33) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+chennai)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=4905 status=0 QTime=1 
+2016-06-10 13:37:14.847 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=(design+chennai)&fl=*+score&start=0&fq=django_ct:(SimplerApp.intern)&rows=20&wt=json} hits=4905 status=0 QTime=1 
+2016-06-10 13:37:17.383 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=design+chennai&start=0&rows=500&wt=json} hits=4905 status=0 QTime=6 

@@ -1,0 +1,217 @@
+2016-02-28 11:03:47.888 INFO  (main) [   ] o.e.j.u.log Logging initialized @433ms
+2016-02-28 11:03:48.146 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2016-02-28 11:03:48.163 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-02-28 11:03:48.165 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/contexts/] at interval 0
+2016-02-28 11:03:48.786 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-02-28 11:03:48.798 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,STARTING}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-02-28 11:03:48.806 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=239465106@e45f292
+2016-02-28 11:03:48.821 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-02-28 11:03:48.821 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-02-28 11:03:48.821 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr'
+2016-02-28 11:03:48.822 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-02-28 11:03:48.822 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-02-28 11:03:48.828 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/solr.xml
+2016-02-28 11:03:48.953 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-02-28 11:03:48.987 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1795960102
+2016-02-28 11:03:48.987 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr]
+2016-02-28 11:03:48.988 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/lib to classpath: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/lib
+2016-02-28 11:03:48.999 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2016-02-28 11:03:49.319 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-02-28 11:03:49.322 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-02-28 11:03:49.322 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-02-28 11:03:49.324 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-02-28 11:03:49.324 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-02-28 11:03:49.407 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-02-28 11:03:49.485 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=fastnext, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext, absoluteInstDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/, dataDir=data}
+2016-02-28 11:03:49.485 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core fastnext in /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/
+2016-02-28 11:03:49.503 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=fastnext, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/new_core, absoluteInstDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/new_core/, dataDir=data}
+2016-02-28 11:03:49.503 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core fastnext in /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/new_core/
+2016-02-28 11:03:49.504 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 2 core definitions
+2016-02-28 11:03:49.508 ERROR (main) [   ] o.a.s.s.SolrDispatchFilter Could not start Solr. Check solr/home property and the logs
+2016-02-28 11:03:49.526 ERROR (main) [   ] o.a.s.c.SolrCore null:org.apache.solr.common.SolrException: Found multiple cores with the name [fastnext], with instancedirs [/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/] and [/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/new_core/]
+	at org.apache.solr.core.CoreContainer.checkForDuplicateCoreNames(CoreContainer.java:526)
+	at org.apache.solr.core.CoreContainer.load(CoreContainer.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:134)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:110)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:138)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:298)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:41)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:498)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:146)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:180)
+	at org.eclipse.jetty.deploy.providers.WebAppProvider.fileAdded(WebAppProvider.java:461)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:64)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:609)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:528)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:391)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:313)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:150)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:560)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:235)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1255)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:321)
+	at org.eclipse.jetty.start.Main.start(Main.java:817)
+	at org.eclipse.jetty.start.Main.main(Main.java:112)
+
+2016-02-28 11:03:49.527 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-02-28 11:03:49.544 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,AVAILABLE}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp}
+2016-02-28 11:03:49.560 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@49139829{HTTP/1.1}{0.0.0.0:8983}
+2016-02-28 11:03:49.560 INFO  (main) [   ] o.e.j.s.Server Started @2108ms
+2016-02-28 11:04:02.931 INFO  (qtp434176574-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1456657442898} status=0 QTime=17 
+2016-02-28 11:04:03.318 INFO  (qtp434176574-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1456657442987} status=0 QTime=318 
+2016-02-28 11:04:07.451 INFO  (qtp434176574-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/threads params={wt=json&_=1456657447425} status=0 QTime=12 
+2016-02-28 11:05:34.763 ERROR (qtp434176574-20) [   ] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Core with core name [core0] does not exist.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleReloadAction(CoreAdminHandler.java:764)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:230)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:184)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:664)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:438)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:05:34.795 INFO  (qtp434176574-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=core0&action=RELOAD} status=400 QTime=32 
+2016-02-28 11:05:42.240 ERROR (qtp434176574-12) [   ] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Core with core name [fastnext] does not exist.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleReloadAction(CoreAdminHandler.java:764)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:230)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:184)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:664)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:438)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:05:42.241 INFO  (qtp434176574-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=fastnext&action=RELOAD} status=400 QTime=0 
+2016-02-28 11:05:50.022 ERROR (qtp434176574-19) [   ] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Core with core name [new_core] does not exist.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleReloadAction(CoreAdminHandler.java:764)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:230)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:184)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:664)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:438)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:05:50.022 INFO  (qtp434176574-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=new_core&action=RELOAD} status=400 QTime=1 
+2016-02-28 11:05:59.965 ERROR (qtp434176574-12) [   ] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Core with core name [new_core] does not exist.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleReloadAction(CoreAdminHandler.java:764)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:230)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:184)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:664)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:438)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:05:59.965 INFO  (qtp434176574-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=new_core&action=RELOAD} status=400 QTime=1 
+2016-02-28 11:06:29.695 INFO  (qtp434176574-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1456657589680} status=0 QTime=0 
+2016-02-28 11:06:29.910 INFO  (qtp434176574-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1456657589731} status=0 QTime=167 
+2016-02-28 11:06:37.043 INFO  (qtp434176574-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1456657597028} status=0 QTime=2 
+2016-02-28 11:06:44.122 INFO  (qtp434176574-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/properties params={wt=json&_=1456657604106} status=0 QTime=0 
+2016-02-28 11:06:46.797 INFO  (qtp434176574-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/threads params={wt=json&_=1456657606779} status=0 QTime=5 
+2016-02-28 11:10:30.898 INFO  (qtp434176574-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1456657830880} status=0 QTime=0 
+2016-02-28 11:13:13.854 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@49139829{HTTP/1.1}{0.0.0.0:8983}
+2016-02-28 11:13:13.904 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1795960102
+2016-02-28 11:13:13.910 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,UNAVAILABLE}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp}

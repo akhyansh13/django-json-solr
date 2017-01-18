@@ -1,0 +1,4 @@
+2016-04-10 08:25:47.957 INFO  (main) [   ] o.e.j.u.log Logging initialized @365ms
+2016-04-10 08:25:48.088 WARN  (main) [   ] o.e.j.x.XmlConfiguration Config error at <Call name="addConnector"><Arg>
+      <New class="org.eclipse.jetty.server.bio.SocketConnector"><Set name="host"><SystemProperty name="jetty.host" default="0.0.0.0"/></Set><Set name="port"><SystemProperty name="jetty.port" default="8983"/></Set><Set name="maxIdleTime">50000</Set><Set name="lowResourceMaxIdleTime">1500</Set><Set name="statsOn">false</Set></New>
+  </Arg></Call>

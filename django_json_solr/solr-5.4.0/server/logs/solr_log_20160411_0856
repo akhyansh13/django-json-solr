@@ -1,0 +1,106 @@
+2016-04-11 08:41:38.802 INFO  (main) [   ] o.e.j.u.log Logging initialized @383ms
+2016-04-11 08:41:39.086 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2016-04-11 08:41:39.101 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-04-11 08:41:39.104 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/home/ubuntu/quablsource/solr-5.4.0/server/contexts/] at interval 0
+2016-04-11 08:41:39.834 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-04-11 08:41:39.864 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@4758af63{/solr,file:/home/ubuntu/quablsource/solr-5.4.0/server/solr-webapp/webapp/,STARTING}{/home/ubuntu/quablsource/solr-5.4.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-04-11 08:41:39.888 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=569447711@21f1151f
+2016-04-11 08:41:39.913 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-04-11 08:41:39.913 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/ubuntu/quablsource/solr-5.4.0/server/solr
+2016-04-11 08:41:39.914 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/ubuntu/quablsource/solr-5.4.0/server/solr'
+2016-04-11 08:41:39.914 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-04-11 08:41:39.914 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/ubuntu/quablsource/solr-5.4.0/server/solr
+2016-04-11 08:41:39.919 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/ubuntu/quablsource/solr-5.4.0/server/solr/solr.xml
+2016-04-11 08:41:40.013 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /home/ubuntu/quablsource/solr-5.4.0/server/solr
+2016-04-11 08:41:40.038 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 845207530
+2016-04-11 08:41:40.038 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/ubuntu/quablsource/solr-5.4.0/server/solr]
+2016-04-11 08:41:40.039 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /home/ubuntu/quablsource/solr-5.4.0/server/solr/lib to classpath: /home/ubuntu/quablsource/solr-5.4.0/server/solr/lib
+2016-04-11 08:41:40.053 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2016-04-11 08:41:40.368 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-04-11 08:41:40.370 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-04-11 08:41:40.371 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-04-11 08:41:40.372 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-04-11 08:41:40.373 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-04-11 08:41:40.409 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /home/ubuntu/quablsource/solr-5.4.0/server/solr
+2016-04-11 08:41:40.429 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=fastnext, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext, absoluteInstDir=/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/, dataDir=data}
+2016-04-11 08:41:40.429 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core fastnext in /home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/
+2016-04-11 08:41:40.429 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2016-04-11 08:41:40.437 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext'
+2016-04-11 08:41:40.438 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-04-11 08:41:40.438 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/ubuntu/quablsource/solr-5.4.0/server/solr
+2016-04-11 08:41:40.443 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/home/ubuntu/quablsource/solr-5.4.0/server
+2016-04-11 08:41:40.443 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-04-11 08:41:40.474 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@4758af63{/solr,file:/home/ubuntu/quablsource/solr-5.4.0/server/solr-webapp/webapp/,AVAILABLE}{/home/ubuntu/quablsource/solr-5.4.0/server/solr-webapp/webapp}
+2016-04-11 08:41:40.519 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@66fecbdc{HTTP/1.1}{0.0.0.0:8080}
+2016-04-11 08:41:40.519 INFO  (main) [   ] o.e.j.s.Server Started @2102ms
+2016-04-11 08:41:40.523 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2016-04-11 08:41:40.629 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2016-04-11 08:41:40.659 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.4.0
+2016-04-11 08:41:40.953 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2016-04-11 08:41:41.042 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [fastnext] Schema name=default
+2016-04-11 08:41:41.454 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema default search field in schema is text
+2016-04-11 08:41:41.462 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema query parser default operator is AND
+2016-04-11 08:41:41.462 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2016-04-11 08:41:41.614 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext'
+2016-04-11 08:41:41.614 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'fastnext' using configuration from instancedir /home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext
+2016-04-11 08:41:41.644 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2016-04-11 08:41:41.654 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore [[fastnext] ] Opening new SolrCore at [/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext], dataDir=[null]
+2016-04-11 08:41:41.655 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2016-04-11 08:41:41.729 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory return new directory for /home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data
+2016-04-11 08:41:41.729 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore New index directory detected: old=null new=/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data/index/
+2016-04-11 08:41:41.730 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory return new directory for /home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data/index
+2016-04-11 08:41:41.740 ERROR (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Solr index directory '/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data/index/' is locked (lockType=native).  Throwing exception.
+2016-04-11 08:41:41.740 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore [fastnext]  CLOSING SolrCore org.apache.solr.core.SolrCore@6b7ec1a0
+2016-04-11 08:41:41.740 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.SolrCoreState Closing SolrCoreState
+2016-04-11 08:41:41.740 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2016-04-11 08:41:41.740 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Closing main searcher on request.
+2016-04-11 08:41:41.740 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2016-04-11 08:41:41.741 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory looking to close /home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data [CachedDir<<refCount=0;path=/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data;done=false>>]
+2016-04-11 08:41:41.741 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory Closing directory: /home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data
+2016-04-11 08:41:41.741 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory looking to close /home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data/index [CachedDir<<refCount=0;path=/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data/index;done=false>>]
+2016-04-11 08:41:41.741 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory Closing directory: /home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data/index
+2016-04-11 08:41:41.743 ERROR (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CoreContainer Error creating core [fastnext]: Index dir '/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data/index/' of core 'fastnext' is already locked. The most likely cause is another Solr server (or another solr core in this server) also configured to use this directory; other possible causes may be specific to lockType: native
+org.apache.solr.common.SolrException: Index dir '/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data/index/' of core 'fastnext' is already locked. The most likely cause is another Solr server (or another solr core in this server) also configured to use this directory; other possible causes may be specific to lockType: native
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:824)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:665)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:742)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:462)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:453)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:232)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.lucene.store.LockObtainFailedException: Index dir '/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data/index/' of core 'fastnext' is already locked. The most likely cause is another Solr server (or another solr core in this server) also configured to use this directory; other possible causes may be specific to lockType: native
+	at org.apache.solr.core.SolrCore.initIndex(SolrCore.java:532)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:765)
+	... 9 more
+2016-04-11 08:41:41.745 ERROR (coreContainerWorkExecutor-2-thread-1) [   ] o.a.s.c.CoreContainer Error waiting for SolrCore to be created
+java.util.concurrent.ExecutionException: org.apache.solr.common.SolrException: Unable to create core [fastnext]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:188)
+	at org.apache.solr.core.CoreContainer$2.run(CoreContainer.java:491)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:232)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [fastnext]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:756)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:462)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:453)
+	... 5 more
+Caused by: org.apache.solr.common.SolrException: Index dir '/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data/index/' of core 'fastnext' is already locked. The most likely cause is another Solr server (or another solr core in this server) also configured to use this directory; other possible causes may be specific to lockType: native
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:824)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:665)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:742)
+	... 7 more
+Caused by: org.apache.lucene.store.LockObtainFailedException: Index dir '/home/ubuntu/quablsource/solr-5.4.0/server/solr/fastnext/data/index/' of core 'fastnext' is already locked. The most likely cause is another Solr server (or another solr core in this server) also configured to use this directory; other possible causes may be specific to lockType: native
+	at org.apache.solr.core.SolrCore.initIndex(SolrCore.java:532)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:765)
+	... 9 more
+2016-04-11 08:46:15.569 WARN  (qtp345520345-15) [   ] o.e.j.h.HttpParser badMessage: 400 No URI for HttpChannelOverHttp@1a141672{r=0,c=false,a=IDLE,uri=-}
+2016-04-11 08:55:39.373 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@66fecbdc{HTTP/1.1}{0.0.0.0:8080}
+2016-04-11 08:55:39.373 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=845207530
+2016-04-11 08:55:39.378 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@4758af63{/solr,file:/home/ubuntu/quablsource/solr-5.4.0/server/solr-webapp/webapp/,UNAVAILABLE}{/home/ubuntu/quablsource/solr-5.4.0/server/solr-webapp/webapp}

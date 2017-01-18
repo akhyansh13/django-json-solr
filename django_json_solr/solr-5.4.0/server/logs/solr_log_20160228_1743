@@ -1,0 +1,844 @@
+2016-02-28 11:44:16.450 INFO  (main) [   ] o.e.j.u.log Logging initialized @445ms
+2016-02-28 11:44:16.734 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2016-02-28 11:44:16.751 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-02-28 11:44:16.753 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/contexts/] at interval 0
+2016-02-28 11:44:17.404 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-02-28 11:44:17.415 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,STARTING}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-02-28 11:44:17.422 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=239465106@e45f292
+2016-02-28 11:44:17.437 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-02-28 11:44:17.437 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-02-28 11:44:17.438 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr'
+2016-02-28 11:44:17.438 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-02-28 11:44:17.438 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-02-28 11:44:17.444 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/solr.xml
+2016-02-28 11:44:17.591 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-02-28 11:44:17.616 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1795960102
+2016-02-28 11:44:17.616 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr]
+2016-02-28 11:44:17.617 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/lib to classpath: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/lib
+2016-02-28 11:44:17.628 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2016-02-28 11:44:17.832 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-02-28 11:44:17.834 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-02-28 11:44:17.835 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-02-28 11:44:17.836 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-02-28 11:44:17.836 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-02-28 11:44:17.910 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-02-28 11:44:17.967 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=fastnext, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext, absoluteInstDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/, dataDir=data}
+2016-02-28 11:44:17.967 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core fastnext in /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/
+2016-02-28 11:44:17.968 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2016-02-28 11:44:17.973 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext'
+2016-02-28 11:44:17.973 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server
+2016-02-28 11:44:17.973 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-02-28 11:44:17.973 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-02-28 11:44:17.974 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-02-28 11:44:17.986 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,AVAILABLE}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp}
+2016-02-28 11:44:18.010 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@14dd9eb7{HTTP/1.1}{0.0.0.0:8983}
+2016-02-28 11:44:18.010 INFO  (main) [   ] o.e.j.s.Server Started @2008ms
+2016-02-28 11:44:18.020 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2016-02-28 11:44:18.049 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2016-02-28 11:44:18.055 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.4.0
+2016-02-28 11:44:18.185 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2016-02-28 11:44:18.238 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [fastnext] Schema name=default
+2016-02-28 11:44:18.435 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema default search field in schema is text
+2016-02-28 11:44:18.435 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema query parser default operator is AND
+2016-02-28 11:44:18.436 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2016-02-28 11:44:18.557 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext'
+2016-02-28 11:44:18.558 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'fastnext' using configuration from instancedir /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext
+2016-02-28 11:44:18.575 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2016-02-28 11:44:18.585 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore [[fastnext] ] Opening new SolrCore at [/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext], dataDir=[null]
+2016-02-28 11:44:18.586 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2016-02-28 11:44:18.647 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory return new directory for /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data
+2016-02-28 11:44:18.648 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore New index directory detected: old=null new=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index/
+2016-02-28 11:44:18.648 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory return new directory for /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index
+2016-02-28 11:44:18.663 INFO  (OldIndexDirectoryCleanupThreadForCore-fastnext) [   x:fastnext] o.a.s.c.SolrCore Looking for old index directories to cleanup for core fastnext in /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/
+2016-02-28 11:44:18.776 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2016-02-28 11:44:18.804 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-02-28 11:44:18.806 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-02-28 11:44:18.807 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-02-28 11:44:18.808 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-02-28 11:44:18.826 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2016-02-28 11:44:18.827 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2016-02-28 11:44:18.833 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2016-02-28 11:44:18.834 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2016-02-28 11:44:18.835 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2016-02-28 11:44:18.848 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2016-02-28 11:44:18.848 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2016-02-28 11:44:18.859 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2016-02-28 11:44:18.859 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2016-02-28 11:44:18.945 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2016-02-28 11:44:18.946 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 1
+2016-02-28 11:44:18.959 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@1a506918[fastnext] main
+2016-02-28 11:44:18.968 WARN  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.ManagedResourceStorage Cannot write to config directory /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/conf; switching to use InMemory storage instead.
+2016-02-28 11:44:18.969 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.RestManager Initializing RestManager with initArgs: {}
+2016-02-28 11:44:18.981 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using InMemoryStorage
+2016-02-28 11:44:18.982 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2016-02-28 11:44:18.990 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2016-02-28 11:44:18.991 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@1a506918[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2016-02-28 11:44:18.992 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2016-02-28 11:44:18.993 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2016-02-28 11:44:18.993 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2016-02-28 11:44:18.993 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1527418568303443968
+2016-02-28 11:44:18.997 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Took 4.0ms to seed version buckets with highest version 1527418568303443968
+2016-02-28 11:44:18.998 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CoreContainer registering core: fastnext
+2016-02-28 11:44:25.407 INFO  (qtp434176574-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1456659865382} status=0 QTime=11 
+2016-02-28 11:44:25.578 INFO  (qtp434176574-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1456659865465} status=0 QTime=101 
+2016-02-28 11:44:27.987 ERROR (qtp434176574-17) [   x:fastnext] o.a.s.h.RequestHandlerBase java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:44:27.988 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1456659867971} status=500 QTime=3 
+2016-02-28 11:44:27.989 ERROR (qtp434176574-17) [   x:fastnext] o.a.s.s.HttpSolrCall null:java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:44:27.998 ERROR (qtp434176574-20) [   x:fastnext] o.a.s.h.RequestHandlerBase java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:44:27.998 INFO  (qtp434176574-20) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1456659867972} status=500 QTime=1 
+2016-02-28 11:44:27.999 ERROR (qtp434176574-20) [   x:fastnext] o.a.s.s.HttpSolrCall null:java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:44:28.030 INFO  (qtp434176574-13) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1456659868013} status=0 QTime=1 
+2016-02-28 11:44:28.091 ERROR (qtp434176574-15) [   x:fastnext] o.a.s.h.RequestHandlerBase java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:44:28.091 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1456659868023} status=500 QTime=1 
+2016-02-28 11:44:28.092 ERROR (qtp434176574-15) [   x:fastnext] o.a.s.s.HttpSolrCall null:java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:44:28.098 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1456659868025} status=503 QTime=7 
+2016-02-28 11:44:28.101 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/replication params={wt=json&command=details&_=1456659868018} status=0 QTime=10 
+2016-02-28 11:44:28.123 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/system params={wt=json&_=1456659868021} status=0 QTime=33 
+2016-02-28 11:44:40.121 INFO  (qtp434176574-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1456659880103} status=0 QTime=0 
+2016-02-28 11:44:40.183 INFO  (qtp434176574-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1456659880154} status=0 QTime=16 
+2016-02-28 11:44:40.220 ERROR (qtp434176574-21) [   x:fastnext] o.a.s.h.RequestHandlerBase java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:44:40.221 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1456659880205} status=500 QTime=1 
+2016-02-28 11:44:40.221 ERROR (qtp434176574-21) [   x:fastnext] o.a.s.s.HttpSolrCall null:java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:44:40.236 ERROR (qtp434176574-19) [   x:fastnext] o.a.s.h.RequestHandlerBase java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:44:40.237 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1456659880206} status=500 QTime=1 
+2016-02-28 11:44:40.238 ERROR (qtp434176574-19) [   x:fastnext] o.a.s.s.HttpSolrCall null:java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:44:40.271 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1456659880253} status=0 QTime=0 
+2016-02-28 11:44:40.282 INFO  (qtp434176574-13) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/replication params={wt=json&command=details&_=1456659880258} status=0 QTime=0 
+2016-02-28 11:44:40.308 ERROR (qtp434176574-17) [   x:fastnext] o.a.s.h.RequestHandlerBase java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:44:40.309 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1456659880263} status=500 QTime=1 
+2016-02-28 11:44:40.309 ERROR (qtp434176574-17) [   x:fastnext] o.a.s.s.HttpSolrCall null:java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:44:40.319 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/system params={wt=json&_=1456659880261} status=0 QTime=24 
+2016-02-28 11:44:40.320 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1456659880265} status=503 QTime=0 
+2016-02-28 11:44:44.439 INFO  (qtp434176574-20) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1456659884419} status=0 QTime=0 
+2016-02-28 11:44:44.456 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/replication params={wt=json&command=details&_=1456659884425} status=0 QTime=0 
+2016-02-28 11:44:44.483 ERROR (qtp434176574-17) [   x:fastnext] o.a.s.h.RequestHandlerBase java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:44:44.484 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1456659884428} status=500 QTime=1 
+2016-02-28 11:44:44.484 ERROR (qtp434176574-17) [   x:fastnext] o.a.s.s.HttpSolrCall null:java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:44:44.487 INFO  (qtp434176574-13) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/system params={wt=json&_=1456659884427} status=0 QTime=18 
+2016-02-28 11:44:44.498 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1456659884430} status=503 QTime=0 
+2016-02-28 11:46:41.822 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1456660001776} status=0 QTime=2 
+2016-02-28 11:46:42.285 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1456660002230} status=0 QTime=40 
+2016-02-28 11:46:44.200 INFO  (qtp434176574-14) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1456660004187} status=0 QTime=0 
+2016-02-28 11:46:50.384 ERROR (qtp434176574-17) [   x:fastnext] o.a.s.h.RequestHandlerBase java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:46:50.423 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/admin/file params={wt=json&_=1456660010368} status=500 QTime=40 
+2016-02-28 11:46:50.424 ERROR (qtp434176574-17) [   x:fastnext] o.a.s.s.HttpSolrCall null:java.lang.NullPointerException
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.getAdminFileFromFileSystem(ShowFileRequestHandler.java:345)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.showFromFileSystem(ShowFileRequestHandler.java:193)
+	at org.apache.solr.handler.admin.ShowFileRequestHandler.handleRequestBody(ShowFileRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-02-28 11:47:14.688 INFO  (qtp434176574-20) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=blah&indent=true&wt=json&_=1456660034524} hits=0 status=0 QTime=150 
+2016-02-28 11:47:23.526 INFO  (qtp434176574-15) [   x:fastnext] o.a.s.c.S.Request [fastnext] webapp=/solr path=/select params={q=blah&indent=true&wt=json} hits=0 status=0 QTime=0 
+2016-02-28 11:47:29.150 INFO  (qtp434176574-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1456660049132} status=0 QTime=0 
+2016-02-28 11:47:29.347 INFO  (qtp434176574-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1456660049185} status=0 QTime=147 
+2016-02-28 11:54:56.618 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:54:56.634 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2016-02-28 11:54:56.635 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2016-02-28 11:54:56.636 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:54:56.636 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {deleteByQuery=*:* (-1527419236852432896),commit=} 0 305
+2016-02-28 11:54:56.668 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=true,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:54:56.670 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2016-02-28 11:54:56.670 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2016-02-28 11:54:56.671 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:54:56.671 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:54:56.671 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2016-02-28 11:54:56.671 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2016-02-28 11:54:56.671 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:54:56.671 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {optimize=,commit=} 0 4
+2016-02-28 11:55:06.425 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:55:06.878 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+2016-02-28 11:55:06.878 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 2
+2016-02-28 11:55:06.968 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@7ae83f57[fastnext] main
+2016-02-28 11:55:06.970 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:55:06.971 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@7ae83f57[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.4.0):C1000)))}
+2016-02-28 11:55:06.971 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.26164 (1527419245682491392), SimplerApp.intern.26165 (1527419245810417664), SimplerApp.intern.26166 (1527419245813563392), SimplerApp.intern.26167 (1527419245817757696), SimplerApp.intern.26168 (1527419245840826368), SimplerApp.intern.26169 (1527419245880672256), SimplerApp.intern.26170 (1527419245883817984), SimplerApp.intern.26171 (1527419245889060864), SimplerApp.intern.26172 (1527419245894303744), SimplerApp.intern.26173 (1527419245898498048), ... (1000 adds)],commit=} 0 1984
+2016-02-28 11:55:12.361 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:55:12.565 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+2016-02-28 11:55:12.565 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 3
+2016-02-28 11:55:12.566 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@637cd3bd[fastnext] main
+2016-02-28 11:55:12.568 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@637cd3bd[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.4.0):C1000) Uninverting(_1(5.4.0):C1000)))}
+2016-02-28 11:55:12.574 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:55:12.574 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.27268 (1527419252675444736), SimplerApp.intern.27269 (1527419252691173376), SimplerApp.intern.27270 (1527419252691173377), SimplerApp.intern.27271 (1527419252692221952), SimplerApp.intern.27273 (1527419252692221953), SimplerApp.intern.27274 (1527419252692221954), SimplerApp.intern.27275 (1527419252693270528), SimplerApp.intern.27276 (1527419252693270529), SimplerApp.intern.27277 (1527419252694319104), SimplerApp.intern.27278 (1527419252695367680), ... (1000 adds)],commit=} 0 914
+2016-02-28 11:55:18.800 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:55:18.998 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+2016-02-28 11:55:18.998 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 4
+2016-02-28 11:55:19.000 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@5c9daeea[fastnext] main
+2016-02-28 11:55:19.001 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@5c9daeea[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.4.0):C1000) Uninverting(_1(5.4.0):C1000) Uninverting(_2(5.4.0):C1000)))}
+2016-02-28 11:55:19.044 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:55:19.045 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.28367 (1527419259603386368), SimplerApp.intern.28368 (1527419259605483520), SimplerApp.intern.28369 (1527419259606532096), SimplerApp.intern.28370 (1527419259606532097), SimplerApp.intern.28371 (1527419259607580672), SimplerApp.intern.28372 (1527419259607580673), SimplerApp.intern.28373 (1527419259607580674), SimplerApp.intern.28374 (1527419259607580675), SimplerApp.intern.28375 (1527419259608629248), SimplerApp.intern.28376 (1527419259609677824), ... (1000 adds)],commit=} 0 778
+2016-02-28 11:55:24.239 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:55:24.363 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+2016-02-28 11:55:24.363 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 5
+2016-02-28 11:55:24.364 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@64f0f1fc[fastnext] main
+2016-02-28 11:55:24.366 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@64f0f1fc[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.4.0):C1000) Uninverting(_1(5.4.0):C1000) Uninverting(_2(5.4.0):C1000) Uninverting(_3(5.4.0):C1000)))}
+2016-02-28 11:55:24.397 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:55:24.397 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.29461 (1527419265368457216), SimplerApp.intern.29462 (1527419265369505792), SimplerApp.intern.29463 (1527419265370554368), SimplerApp.intern.29464 (1527419265370554369), SimplerApp.intern.29465 (1527419265371602944), SimplerApp.intern.29466 (1527419265371602945), SimplerApp.intern.29467 (1527419265372651520), SimplerApp.intern.29468 (1527419265372651521), SimplerApp.intern.29470 (1527419265373700096), SimplerApp.intern.29471 (1527419265373700097), ... (1000 adds)],commit=} 0 632
+2016-02-28 11:55:29.517 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:55:29.658 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+2016-02-28 11:55:29.658 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 6
+2016-02-28 11:55:29.660 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@73a954f1[fastnext] main
+2016-02-28 11:55:29.661 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@73a954f1[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.4.0):C1000) Uninverting(_1(5.4.0):C1000) Uninverting(_2(5.4.0):C1000) Uninverting(_3(5.4.0):C1000) Uninverting(_4(5.4.0):C1000)))}
+2016-02-28 11:55:29.720 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:55:29.721 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.30571 (1527419270894452736), SimplerApp.intern.30572 (1527419270896549888), SimplerApp.intern.30573 (1527419270897598464), SimplerApp.intern.30574 (1527419270898647040), SimplerApp.intern.30575 (1527419270898647041), SimplerApp.intern.30576 (1527419270898647042), SimplerApp.intern.30577 (1527419270899695616), SimplerApp.intern.30578 (1527419270899695617), SimplerApp.intern.30579 (1527419270900744192), SimplerApp.intern.30580 (1527419270900744193), ... (1000 adds)],commit=} 0 684
+2016-02-28 11:55:34.848 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:55:34.959 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_7,generation=7}
+2016-02-28 11:55:34.959 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 7
+2016-02-28 11:55:34.960 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@73635a2e[fastnext] main
+2016-02-28 11:55:34.961 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@73635a2e[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.4.0):C1000) Uninverting(_1(5.4.0):C1000) Uninverting(_2(5.4.0):C1000) Uninverting(_3(5.4.0):C1000) Uninverting(_4(5.4.0):C1000) Uninverting(_5(5.4.0):C1000)))}
+2016-02-28 11:55:34.961 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:55:34.961 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.31644 (1527419276461342720), SimplerApp.intern.31645 (1527419276463439872), SimplerApp.intern.31646 (1527419276464488448), SimplerApp.intern.31648 (1527419276464488449), SimplerApp.intern.31649 (1527419276465537024), SimplerApp.intern.31650 (1527419276466585600), SimplerApp.intern.31651 (1527419276466585601), SimplerApp.intern.31652 (1527419276467634176), SimplerApp.intern.31653 (1527419276467634177), SimplerApp.intern.31654 (1527419276468682752), ... (1000 adds)],commit=} 0 616
+2016-02-28 11:55:39.948 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:55:40.049 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_7,generation=7}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8,generation=8}
+2016-02-28 11:55:40.050 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 8
+2016-02-28 11:55:40.051 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@341ef12f[fastnext] main
+2016-02-28 11:55:40.055 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@341ef12f[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.4.0):C1000) Uninverting(_1(5.4.0):C1000) Uninverting(_2(5.4.0):C1000) Uninverting(_3(5.4.0):C1000) Uninverting(_4(5.4.0):C1000) Uninverting(_5(5.4.0):C1000) Uninverting(_6(5.4.0):C1000)))}
+2016-02-28 11:55:40.098 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:55:40.098 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.32711 (1527419281883529216), SimplerApp.intern.32712 (1527419281885626368), SimplerApp.intern.32713 (1527419281885626369), SimplerApp.intern.32715 (1527419281885626370), SimplerApp.intern.32716 (1527419281886674944), SimplerApp.intern.32717 (1527419281886674945), SimplerApp.intern.32719 (1527419281887723520), SimplerApp.intern.32720 (1527419281887723521), SimplerApp.intern.32721 (1527419281887723522), SimplerApp.intern.32722 (1527419281888772096), ... (1000 adds)],commit=} 0 582
+2016-02-28 11:55:44.886 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:55:44.989 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8,generation=8}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9,generation=9}
+2016-02-28 11:55:44.989 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 9
+2016-02-28 11:55:44.993 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@3f4c041b[fastnext] main
+2016-02-28 11:55:44.996 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@3f4c041b[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.4.0):C1000) Uninverting(_1(5.4.0):C1000) Uninverting(_2(5.4.0):C1000) Uninverting(_3(5.4.0):C1000) Uninverting(_4(5.4.0):C1000) Uninverting(_5(5.4.0):C1000) Uninverting(_6(5.4.0):C1000) Uninverting(_7(5.4.0):C1000)))}
+2016-02-28 11:55:45.087 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:55:45.087 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.33763 (1527419287044620288), SimplerApp.intern.33764 (1527419287047766016), SimplerApp.intern.33765 (1527419287047766017), SimplerApp.intern.33766 (1527419287047766018), SimplerApp.intern.33767 (1527419287047766019), SimplerApp.intern.33768 (1527419287048814592), SimplerApp.intern.33769 (1527419287048814593), SimplerApp.intern.33770 (1527419287049863168), SimplerApp.intern.33772 (1527419287049863169), SimplerApp.intern.33774 (1527419287049863170), ... (1000 adds)],commit=} 0 648
+2016-02-28 11:55:49.836 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:55:49.929 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9,generation=9}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_a,generation=10}
+2016-02-28 11:55:49.929 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 10
+2016-02-28 11:55:49.930 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@7ffb529f[fastnext] main
+2016-02-28 11:55:49.934 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@7ffb529f[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.4.0):C1000) Uninverting(_1(5.4.0):C1000) Uninverting(_2(5.4.0):C1000) Uninverting(_3(5.4.0):C1000) Uninverting(_4(5.4.0):C1000) Uninverting(_5(5.4.0):C1000) Uninverting(_6(5.4.0):C1000) Uninverting(_7(5.4.0):C1000) Uninverting(_8(5.4.0):C1000)))}
+2016-02-28 11:55:50.003 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:55:50.004 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.34800 (1527419292246605824), SimplerApp.intern.34801 (1527419292249751552), SimplerApp.intern.34802 (1527419292249751553), SimplerApp.intern.34803 (1527419292249751554), SimplerApp.intern.34804 (1527419292250800128), SimplerApp.intern.34805 (1527419292250800129), SimplerApp.intern.34806 (1527419292251848704), SimplerApp.intern.34807 (1527419292251848705), SimplerApp.intern.34808 (1527419292252897280), SimplerApp.intern.34809 (1527419292252897281), ... (1000 adds)],commit=} 0 604
+2016-02-28 11:55:54.920 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:55:55.013 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_a,generation=10}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b,generation=11}
+2016-02-28 11:55:55.013 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 11
+2016-02-28 11:55:55.015 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@749fc54f[fastnext] main
+2016-02-28 11:55:55.016 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@749fc54f[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.4.0):C1000) Uninverting(_1(5.4.0):C1000) Uninverting(_2(5.4.0):C1000) Uninverting(_3(5.4.0):C1000) Uninverting(_4(5.4.0):C1000) Uninverting(_5(5.4.0):C1000) Uninverting(_6(5.4.0):C1000) Uninverting(_7(5.4.0):C1000) Uninverting(_8(5.4.0):C1000) Uninverting(_9(5.4.0):C1000)))}
+2016-02-28 11:55:55.112 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:55:55.112 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.35844 (1527419297551351808), SimplerApp.intern.35845 (1527419297553448960), SimplerApp.intern.35846 (1527419297554497536), SimplerApp.intern.35847 (1527419297554497537), SimplerApp.intern.35848 (1527419297554497538), SimplerApp.intern.35849 (1527419297555546112), SimplerApp.intern.35850 (1527419297555546113), SimplerApp.intern.35851 (1527419297556594688), SimplerApp.intern.35852 (1527419297556594689), SimplerApp.intern.35853 (1527419297556594690), ... (1000 adds)],commit=} 0 654
+2016-02-28 11:56:00.684 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:56:00.778 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b,generation=11}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_c,generation=12}
+2016-02-28 11:56:00.778 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 12
+2016-02-28 11:56:00.782 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@4ceb6adc[fastnext] main
+2016-02-28 11:56:00.785 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@4ceb6adc[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.4.0):C1000) Uninverting(_1(5.4.0):C1000) Uninverting(_2(5.4.0):C1000) Uninverting(_3(5.4.0):C1000) Uninverting(_4(5.4.0):C1000) Uninverting(_5(5.4.0):C1000) Uninverting(_6(5.4.0):C1000) Uninverting(_7(5.4.0):C1000) Uninverting(_8(5.4.0):C1000) Uninverting(_9(5.4.0):C1000) Uninverting(_a(5.4.0):C1000)))}
+2016-02-28 11:56:00.842 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:56:00.843 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.36874 (1527419303623655424), SimplerApp.intern.36875 (1527419303625752576), SimplerApp.intern.36876 (1527419303625752577), SimplerApp.intern.36877 (1527419303626801152), SimplerApp.intern.36878 (1527419303626801153), SimplerApp.intern.36879 (1527419303626801154), SimplerApp.intern.36880 (1527419303626801155), SimplerApp.intern.36881 (1527419303627849728), SimplerApp.intern.36883 (1527419303627849729), SimplerApp.intern.36884 (1527419303627849730), ... (1000 adds)],commit=} 0 593
+2016-02-28 11:56:06.491 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:56:06.579 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_c,generation=12}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_d,generation=13}
+2016-02-28 11:56:06.579 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 13
+2016-02-28 11:56:06.582 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@38a3a79d[fastnext] main
+2016-02-28 11:56:06.584 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@38a3a79d[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.4.0):C1000) Uninverting(_1(5.4.0):C1000) Uninverting(_2(5.4.0):C1000) Uninverting(_3(5.4.0):C1000) Uninverting(_4(5.4.0):C1000) Uninverting(_5(5.4.0):C1000) Uninverting(_6(5.4.0):C1000) Uninverting(_7(5.4.0):C1000) Uninverting(_8(5.4.0):C1000) Uninverting(_9(5.4.0):C1000) Uninverting(_a(5.4.0):C1000) Uninverting(_b(5.4.0):C1000)))}
+2016-02-28 11:56:06.586 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:56:06.586 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.37891 (1527419309737902080), SimplerApp.intern.37892 (1527419309738950656), SimplerApp.intern.37893 (1527419309739999232), SimplerApp.intern.37894 (1527419309739999233), SimplerApp.intern.37895 (1527419309741047808), SimplerApp.intern.37896 (1527419309742096384), SimplerApp.intern.37897 (1527419309742096385), SimplerApp.intern.37898 (1527419309743144960), SimplerApp.intern.37899 (1527419309743144961), SimplerApp.intern.37900 (1527419309743144962), ... (1000 adds)],commit=} 0 506
+2016-02-28 11:56:14.173 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:56:14.347 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_d,generation=13}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_e,generation=14}
+2016-02-28 11:56:14.347 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 14
+2016-02-28 11:56:14.348 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@6d6087eb[fastnext] main
+2016-02-28 11:56:14.349 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@6d6087eb[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_c(5.4.0):C10000) Uninverting(_8(5.4.0):C1000) Uninverting(_b(5.4.0):C1000) Uninverting(_d(5.4.0):C1000)))}
+2016-02-28 11:56:14.349 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:56:14.363 INFO  (qtp434176574-17) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.38898 (1527419317701836800), SimplerApp.intern.38899 (1527419317703933952), SimplerApp.intern.38900 (1527419317704982528), SimplerApp.intern.38901 (1527419317704982529), SimplerApp.intern.38902 (1527419317706031104), SimplerApp.intern.38903 (1527419317707079680), SimplerApp.intern.38904 (1527419317707079681), SimplerApp.intern.38905 (1527419317707079682), SimplerApp.intern.38906 (1527419317708128256), SimplerApp.intern.38907 (1527419317708128257), ... (1000 adds)],commit=} 0 687
+2016-02-28 11:56:20.175 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:56:20.279 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_e,generation=14}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_f,generation=15}
+2016-02-28 11:56:20.280 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 15
+2016-02-28 11:56:20.281 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@39a56c9b[fastnext] main
+2016-02-28 11:56:20.282 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@39a56c9b[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_c(5.4.0):C10000) Uninverting(_8(5.4.0):C1000) Uninverting(_b(5.4.0):C1000) Uninverting(_d(5.4.0):C1000) Uninverting(_e(5.4.0):C1000)))}
+2016-02-28 11:56:20.346 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:56:20.346 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.39900 (1527419323994341376), SimplerApp.intern.39901 (1527419323996438528), SimplerApp.intern.39902 (1527419323996438529), SimplerApp.intern.39903 (1527419323996438530), SimplerApp.intern.39904 (1527419323997487104), SimplerApp.intern.39905 (1527419323998535680), SimplerApp.intern.39906 (1527419323998535681), SimplerApp.intern.39907 (1527419323999584256), SimplerApp.intern.39908 (1527419323999584257), SimplerApp.intern.39909 (1527419324001681408), ... (1000 adds)],commit=} 0 670
+2016-02-28 11:56:25.387 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:56:25.522 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_f,generation=15}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_g,generation=16}
+2016-02-28 11:56:25.523 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 16
+2016-02-28 11:56:25.524 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@2dcec9a3[fastnext] main
+2016-02-28 11:56:25.525 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@2dcec9a3[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_c(5.4.0):C10000) Uninverting(_8(5.4.0):C1000) Uninverting(_b(5.4.0):C1000) Uninverting(_d(5.4.0):C1000) Uninverting(_e(5.4.0):C1000) Uninverting(_f(5.4.0):C1000)))}
+2016-02-28 11:56:25.620 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:56:25.621 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.40900 (1527419329500413952), SimplerApp.intern.40901 (1527419329501462528), SimplerApp.intern.40902 (1527419329502511104), SimplerApp.intern.40903 (1527419329502511105), SimplerApp.intern.40904 (1527419329502511106), SimplerApp.intern.40905 (1527419329502511107), SimplerApp.intern.40906 (1527419329502511108), SimplerApp.intern.40907 (1527419329503559680), SimplerApp.intern.40908 (1527419329503559681), SimplerApp.intern.40909 (1527419329503559682), ... (1000 adds)],commit=} 0 693
+2016-02-28 11:56:31.303 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:56:31.439 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_g,generation=16}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_h,generation=17}
+2016-02-28 11:56:31.439 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 17
+2016-02-28 11:56:31.441 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@145b9f9a[fastnext] main
+2016-02-28 11:56:31.442 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:56:31.442 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@145b9f9a[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_c(5.4.0):C10000) Uninverting(_8(5.4.0):C1000) Uninverting(_b(5.4.0):C1000) Uninverting(_d(5.4.0):C1000) Uninverting(_e(5.4.0):C1000) Uninverting(_f(5.4.0):C1000) Uninverting(_g(5.4.0):C1000)))}
+2016-02-28 11:56:31.442 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.41900 (1527419335737344000), SimplerApp.intern.41901 (1527419335749926912), SimplerApp.intern.41902 (1527419335750975488), SimplerApp.intern.41903 (1527419335752024064), SimplerApp.intern.41904 (1527419335753072640), SimplerApp.intern.41905 (1527419335753072641), SimplerApp.intern.41906 (1527419335753072642), SimplerApp.intern.41907 (1527419335754121216), SimplerApp.intern.41908 (1527419335755169792), SimplerApp.intern.41909 (1527419335755169793), ... (1000 adds)],commit=} 0 567
+2016-02-28 11:56:36.518 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:56:36.598 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_h,generation=17}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_i,generation=18}
+2016-02-28 11:56:36.598 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 18
+2016-02-28 11:56:36.599 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@64c784df[fastnext] main
+2016-02-28 11:56:36.600 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@64c784df[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_c(5.4.0):C10000) Uninverting(_8(5.4.0):C1000) Uninverting(_b(5.4.0):C1000) Uninverting(_d(5.4.0):C1000) Uninverting(_e(5.4.0):C1000) Uninverting(_f(5.4.0):C1000) Uninverting(_g(5.4.0):C1000) Uninverting(_h(5.4.0):C1000)))}
+2016-02-28 11:56:36.639 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:56:36.640 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.42998 (1527419341260193792), SimplerApp.intern.42999 (1527419341262290944), SimplerApp.intern.43000 (1527419341263339520), SimplerApp.intern.43001 (1527419341263339521), SimplerApp.intern.43002 (1527419341263339522), SimplerApp.intern.43003 (1527419341264388096), SimplerApp.intern.43004 (1527419341265436672), SimplerApp.intern.43005 (1527419341265436673), SimplerApp.intern.43006 (1527419341266485248), SimplerApp.intern.43007 (1527419341266485249), ... (1000 adds)],commit=} 0 498
+2016-02-28 11:56:41.886 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:56:41.953 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_i,generation=18}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_j,generation=19}
+2016-02-28 11:56:41.953 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 19
+2016-02-28 11:56:41.954 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@67c166c1[fastnext] main
+2016-02-28 11:56:41.957 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@67c166c1[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_c(5.4.0):C10000) Uninverting(_8(5.4.0):C1000) Uninverting(_b(5.4.0):C1000) Uninverting(_d(5.4.0):C1000) Uninverting(_e(5.4.0):C1000) Uninverting(_f(5.4.0):C1000) Uninverting(_g(5.4.0):C1000) Uninverting(_h(5.4.0):C1000) Uninverting(_i(5.4.0):C1000)))}
+2016-02-28 11:56:41.998 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:56:41.998 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.44025 (1527419346810306560), SimplerApp.intern.44026 (1527419346811355136), SimplerApp.intern.44027 (1527419346811355137), SimplerApp.intern.44028 (1527419346812403712), SimplerApp.intern.44029 (1527419346812403713), SimplerApp.intern.44030 (1527419346812403714), SimplerApp.intern.44031 (1527419346812403715), SimplerApp.intern.44032 (1527419346813452288), SimplerApp.intern.44033 (1527419346813452289), SimplerApp.intern.44034 (1527419346813452290), ... (1000 adds)],commit=} 0 563
+2016-02-28 11:56:46.647 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:56:46.721 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_j,generation=19}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_k,generation=20}
+2016-02-28 11:56:46.721 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 20
+2016-02-28 11:56:46.722 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@62f020b5[fastnext] main
+2016-02-28 11:56:46.725 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@62f020b5[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_c(5.4.0):C10000) Uninverting(_8(5.4.0):C1000) Uninverting(_b(5.4.0):C1000) Uninverting(_d(5.4.0):C1000) Uninverting(_e(5.4.0):C1000) Uninverting(_f(5.4.0):C1000) Uninverting(_g(5.4.0):C1000) Uninverting(_h(5.4.0):C1000) Uninverting(_i(5.4.0):C1000) Uninverting(_j(5.4.0):C1000)))}
+2016-02-28 11:56:46.749 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:56:46.750 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.45062 (1527419351901143040), SimplerApp.intern.45063 (1527419351902191616), SimplerApp.intern.45065 (1527419351903240192), SimplerApp.intern.45066 (1527419351903240193), SimplerApp.intern.45067 (1527419351903240194), SimplerApp.intern.45069 (1527419351903240195), SimplerApp.intern.45070 (1527419351904288768), SimplerApp.intern.45071 (1527419351905337344), SimplerApp.intern.45072 (1527419351905337345), SimplerApp.intern.45073 (1527419351905337346), ... (1000 adds)],commit=} 0 459
+2016-02-28 11:56:51.392 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:56:51.473 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_k,generation=20}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_l,generation=21}
+2016-02-28 11:56:51.473 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 21
+2016-02-28 11:56:51.474 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@3327c2df[fastnext] main
+2016-02-28 11:56:51.478 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@3327c2df[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_c(5.4.0):C10000) Uninverting(_8(5.4.0):C1000) Uninverting(_b(5.4.0):C1000) Uninverting(_d(5.4.0):C1000) Uninverting(_e(5.4.0):C1000) Uninverting(_f(5.4.0):C1000) Uninverting(_g(5.4.0):C1000) Uninverting(_h(5.4.0):C1000) Uninverting(_i(5.4.0):C1000) Uninverting(_j(5.4.0):C1000) Uninverting(_k(5.4.0):C1000)))}
+2016-02-28 11:56:51.509 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:56:51.509 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.46176 (1527419356872441856), SimplerApp.intern.46177 (1527419356873490432), SimplerApp.intern.46178 (1527419356874539008), SimplerApp.intern.46179 (1527419356875587584), SimplerApp.intern.46180 (1527419356875587585), SimplerApp.intern.46181 (1527419356876636160), SimplerApp.intern.46182 (1527419356876636161), SimplerApp.intern.46183 (1527419356876636162), SimplerApp.intern.46184 (1527419356877684736), SimplerApp.intern.46185 (1527419356877684737), ... (1000 adds)],commit=} 0 478
+2016-02-28 11:56:56.331 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:56:56.408 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_l,generation=21}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_m,generation=22}
+2016-02-28 11:56:56.408 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 22
+2016-02-28 11:56:56.410 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@621378a1[fastnext] main
+2016-02-28 11:56:56.410 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@621378a1[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_c(5.4.0):C10000) Uninverting(_8(5.4.0):C1000) Uninverting(_b(5.4.0):C1000) Uninverting(_d(5.4.0):C1000) Uninverting(_e(5.4.0):C1000) Uninverting(_f(5.4.0):C1000) Uninverting(_g(5.4.0):C1000) Uninverting(_h(5.4.0):C1000) Uninverting(_i(5.4.0):C1000) Uninverting(_j(5.4.0):C1000) Uninverting(_k(5.4.0):C1000) Uninverting(_l(5.4.0):C1000)))}
+2016-02-28 11:56:56.438 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:56:56.438 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.47191 (1527419362044018688), SimplerApp.intern.47192 (1527419362045067264), SimplerApp.intern.47193 (1527419362045067265), SimplerApp.intern.47194 (1527419362045067266), SimplerApp.intern.47195 (1527419362045067267), SimplerApp.intern.47196 (1527419362045067268), SimplerApp.intern.47197 (1527419362045067269), SimplerApp.intern.47198 (1527419362046115840), SimplerApp.intern.47199 (1527419362046115841), SimplerApp.intern.47200 (1527419362046115842), ... (1000 adds)],commit=} 0 475
+2016-02-28 11:57:01.424 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:57:01.500 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_m,generation=22}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_n,generation=23}
+2016-02-28 11:57:01.500 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 23
+2016-02-28 11:57:01.503 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@6fa79e61[fastnext] main
+2016-02-28 11:57:01.504 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@6fa79e61[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_c(5.4.0):C10000) Uninverting(_8(5.4.0):C1000) Uninverting(_b(5.4.0):C1000) Uninverting(_d(5.4.0):C1000) Uninverting(_e(5.4.0):C1000) Uninverting(_f(5.4.0):C1000) Uninverting(_g(5.4.0):C1000) Uninverting(_h(5.4.0):C1000) Uninverting(_i(5.4.0):C1000) Uninverting(_j(5.4.0):C1000) Uninverting(_k(5.4.0):C1000) Uninverting(_l(5.4.0):C1000) Uninverting(_m(5.4.0):C1000)))}
+2016-02-28 11:57:01.504 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:57:01.505 INFO  (qtp434176574-19) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.48206 (1527419367339327488), SimplerApp.intern.48207 (1527419367341424640), SimplerApp.intern.48208 (1527419367342473216), SimplerApp.intern.48209 (1527419367343521792), SimplerApp.intern.48210 (1527419367344570368), SimplerApp.intern.48211 (1527419367345618944), SimplerApp.intern.48212 (1527419367346667520), SimplerApp.intern.48213 (1527419367347716096), SimplerApp.intern.48214 (1527419367347716097), SimplerApp.intern.48215 (1527419367348764672), ... (1000 adds)],commit=} 0 492
+2016-02-28 11:57:05.080 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-02-28 11:57:05.133 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_n,generation=23}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@27f29a7c; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_o,generation=24}
+2016-02-28 11:57:05.133 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 24
+2016-02-28 11:57:05.134 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@3ad720f6[fastnext] main
+2016-02-28 11:57:05.135 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@3ad720f6[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_c(5.4.0):C10000) Uninverting(_n(5.4.0):C10000) Uninverting(_j(5.4.0):C1000) Uninverting(_k(5.4.0):C1000) Uninverting(_o(5.4.0):C637)))}
+2016-02-28 11:57:05.151 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-02-28 11:57:05.162 INFO  (qtp434176574-21) [   x:fastnext] o.a.s.u.p.LogUpdateProcessorFactory [fastnext] webapp=/solr path=/update params={commit=true} {add=[SimplerApp.intern.49231 (1527419371319721984), SimplerApp.intern.49232 (1527419371320770560), SimplerApp.intern.49233 (1527419371320770561), SimplerApp.intern.49234 (1527419371321819136), SimplerApp.intern.49235 (1527419371321819137), SimplerApp.intern.49236 (1527419371322867712), SimplerApp.intern.49237 (1527419371322867713), SimplerApp.intern.49238 (1527419371322867714), SimplerApp.intern.49239 (1527419371323916288), SimplerApp.intern.49240 (1527419371323916289), ... (637 adds)],commit=} 0 353
+2016-02-28 12:12:23.972 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@14dd9eb7{HTTP/1.1}{0.0.0.0:8983}
+2016-02-28 12:12:24.111 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1795960102
+2016-02-28 12:12:24.113 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.c.SolrCore [fastnext]  CLOSING SolrCore org.apache.solr.core.SolrCore@13ac550d
+2016-02-28 12:12:24.115 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.u.DirectUpdateHandler2 closing DirectUpdateHandler2{commits=25,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=1,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=22637,cumulative_deletesById=0,cumulative_deletesByQuery=1,cumulative_errors=0,transaction_logs_total_size=2509303,transaction_logs_total_number=1}
+2016-02-28 12:12:24.116 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.u.SolrCoreState Closing SolrCoreState
+2016-02-28 12:12:24.116 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2016-02-28 12:12:24.116 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2016-02-28 12:12:24.212 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Closing main searcher on request.
+2016-02-28 12:12:24.215 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2016-02-28 12:12:24.216 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.c.CachingDirectoryFactory looking to close /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index [CachedDir<<refCount=0;path=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index;done=false>>]
+2016-02-28 12:12:24.216 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.c.CachingDirectoryFactory Closing directory: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index
+2016-02-28 12:12:24.217 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.c.CachingDirectoryFactory looking to close /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data [CachedDir<<refCount=0;path=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data;done=false>>]
+2016-02-28 12:12:24.217 INFO  (ShutdownMonitor) [   x:fastnext] o.a.s.c.CachingDirectoryFactory Closing directory: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data
+2016-02-28 12:12:24.238 INFO  (ShutdownMonitor) [   x:fastnext] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,UNAVAILABLE}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp}

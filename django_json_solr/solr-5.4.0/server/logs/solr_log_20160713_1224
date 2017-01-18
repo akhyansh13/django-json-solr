@@ -1,0 +1,224 @@
+2016-07-04 13:28:25.530 INFO  (main) [   ] o.e.j.u.log Logging initialized @470ms
+2016-07-04 13:28:25.753 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2016-07-04 13:28:25.769 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-07-04 13:28:25.772 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/contexts/] at interval 0
+2016-07-04 13:28:26.527 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-07-04 13:28:26.539 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@4dfa3a9d{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,STARTING}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-07-04 13:28:26.551 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1596000437@5f2108b5
+2016-07-04 13:28:26.572 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-07-04 13:28:26.572 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-07-04 13:28:26.573 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr'
+2016-07-04 13:28:26.573 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-07-04 13:28:26.573 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-07-04 13:28:26.580 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/solr.xml
+2016-07-04 13:28:26.726 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-07-04 13:28:26.759 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 943081537
+2016-07-04 13:28:26.759 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr]
+2016-07-04 13:28:26.760 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/lib to classpath: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/lib
+2016-07-04 13:28:26.771 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2016-07-04 13:28:26.990 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-07-04 13:28:26.992 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-07-04 13:28:26.993 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-07-04 13:28:26.995 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-07-04 13:28:26.995 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-07-04 13:28:27.034 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-07-04 13:28:27.066 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=fastnext, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext, absoluteInstDir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/, dataDir=data}
+2016-07-04 13:28:27.066 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core fastnext in /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/
+2016-07-04 13:28:27.067 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2016-07-04 13:28:27.078 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext'
+2016-07-04 13:28:27.078 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-07-04 13:28:27.079 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr
+2016-07-04 13:28:27.082 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server
+2016-07-04 13:28:27.082 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-07-04 13:28:27.101 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@4dfa3a9d{/solr,file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp/,AVAILABLE}{/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr-webapp/webapp}
+2016-07-04 13:28:27.158 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2016-07-04 13:28:27.161 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2016-07-04 13:28:27.164 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@1269f881{HTTP/1.1}{0.0.0.0:8983}
+2016-07-04 13:28:27.164 INFO  (main) [   ] o.e.j.s.Server Started @2106ms
+2016-07-04 13:28:27.274 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/attributes-binder-1.2.3.jar' to classloader
+2016-07-04 13:28:27.280 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/carrot2-guava-18.0.jar' to classloader
+2016-07-04 13:28:27.280 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/carrot2-mini-3.10.4.jar' to classloader
+2016-07-04 13:28:27.281 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/jackson-annotations-2.5.4.jar' to classloader
+2016-07-04 13:28:27.281 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/jackson-databind-2.5.4.jar' to classloader
+2016-07-04 13:28:27.281 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2016-07-04 13:28:27.281 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2016-07-04 13:28:27.281 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/contrib/clustering/lib/simple-xml-2.7.1.jar' to classloader
+2016-07-04 13:28:27.281 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/dist/solr-clustering-5.4.0.jar' to classloader
+2016-07-04 13:28:27.580 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2016-07-04 13:28:27.593 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.4.0
+2016-07-04 13:28:27.701 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2016-07-04 13:28:27.750 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [fastnext] Schema name=default
+2016-07-04 13:28:27.889 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema default search field in schema is text
+2016-07-04 13:28:27.890 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema query parser default operator is AND
+2016-07-04 13:28:27.890 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2016-07-04 13:28:28.009 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext'
+2016-07-04 13:28:28.010 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'fastnext' using configuration from instancedir /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext
+2016-07-04 13:28:28.027 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2016-07-04 13:28:28.081 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore [[fastnext] ] Opening new SolrCore at [/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext], dataDir=[null]
+2016-07-04 13:28:28.084 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2016-07-04 13:28:28.094 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory return new directory for /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data
+2016-07-04 13:28:28.095 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore New index directory detected: old=null new=/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index/
+2016-07-04 13:28:28.096 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CachingDirectoryFactory return new directory for /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index
+2016-07-04 13:28:28.109 INFO  (OldIndexDirectoryCleanupThreadForCore-fastnext) [   x:fastnext] o.a.s.c.SolrCore Looking for old index directories to cleanup for core fastnext in /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/
+2016-07-04 13:28:28.192 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2016-07-04 13:28:28.225 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-07-04 13:28:28.227 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-07-04 13:28:28.228 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-07-04 13:28:28.229 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-07-04 13:28:28.245 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2016-07-04 13:28:28.246 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2016-07-04 13:28:28.248 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2016-07-04 13:28:28.249 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/clustering,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2016-07-04 13:28:28.250 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2016-07-04 13:28:28.268 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2016-07-04 13:28:28.269 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2016-07-04 13:28:28.303 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2016-07-04 13:28:28.303 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2016-07-04 13:28:28.730 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@26551275; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_bn,generation=419}
+2016-07-04 13:28:28.730 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.SolrDeletionPolicy newest commit generation = 419
+2016-07-04 13:28:29.258 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.s.SolrIndexSearcher Opening Searcher@162ea8d3[fastnext] main
+2016-07-04 13:28:29.265 WARN  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.ManagedResourceStorage Cannot write to config directory /Users/Akhyansh/Desktop/quablsource/solr-5.4.0/server/solr/fastnext/conf; switching to use InMemory storage instead.
+2016-07-04 13:28:29.266 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.RestManager Initializing RestManager with initArgs: {}
+2016-07-04 13:28:29.274 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using InMemoryStorage
+2016-07-04 13:28:29.274 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2016-07-04 13:28:29.279 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.ClusteringComponent Initializing Clustering Engines
+2016-07-04 13:28:29.341 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.c.CarrotClusteringEngine Initializing Clustering Engine 'lingo'
+2016-07-04 13:28:29.352 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.ClusteringComponent Default engine for search results clustering: lingo [CarrotClusteringEngine]
+2016-07-04 13:28:29.352 WARN  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.ClusteringComponent No default engine for document clustering.
+2016-07-04 13:28:29.352 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.c.ClusteringComponent Finished Initializing Clustering Engines
+2016-07-04 13:28:29.353 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2016-07-04 13:28:29.354 INFO  (searcherExecutor-7-thread-1-processing-x:fastnext) [   x:fastnext] o.a.s.c.SolrCore [fastnext] Registered new searcher Searcher@162ea8d3[fastnext] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_ao(5.4.0):C98060/4787:delGen=2) Uninverting(_95(5.4.0):C1000) Uninverting(_a4(5.4.0):C1000) Uninverting(_ay(5.4.0):c10000) Uninverting(_ag(5.4.0):C1000) Uninverting(_ai(5.4.0):C1000) Uninverting(_ak(5.4.0):C1000) Uninverting(_bs(5.4.0):c10000) Uninverting(_cd(5.4.0):c10000) Uninverting(_b8(5.4.0):c10000) Uninverting(_bi(5.4.0):c10000) Uninverting(_cn(5.4.0):c10000) Uninverting(_c3(5.4.0):c10000) Uninverting(_ci(5.4.0):C1000) Uninverting(_co(5.4.0):C1000) Uninverting(_cp(5.4.0):C1000) Uninverting(_cq(5.4.0):C1000) Uninverting(_cr(5.4.0):C1000) Uninverting(_cs(5.4.0):C1000) Uninverting(_ct(5.4.0):C93)))}
+2016-07-04 13:28:29.354 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2016-07-04 13:28:29.357 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2016-07-04 13:28:29.393 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.VersionInfo Found MAX value 1536565268004732930 from Terms for _version_ in index
+2016-07-04 13:28:29.402 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.u.UpdateLog Took 46.0ms to seed version buckets with highest version 1536565268004732930
+2016-07-04 13:28:29.403 INFO  (coreLoadExecutor-6-thread-1) [   x:fastnext] o.a.s.c.CoreContainer registering core: fastnext
+2016-07-04 13:36:18.967 ERROR (qtp434176574-13) [   x:fastnext] o.a.s.s.HttpSolrCall null:java.lang.RuntimeException: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:611)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:472)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:256)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:219)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at com.carrotsearch.hppc.IntIntHashMap.allocateBuffers(IntIntHashMap.java:1140)
+	at com.carrotsearch.hppc.IntIntHashMap.ensureCapacity(IntIntHashMap.java:660)
+	at com.carrotsearch.hppc.IntIntHashMap.<init>(IntIntHashMap.java:138)
+	at com.carrotsearch.hppc.IntIntHashMap.<init>(IntIntHashMap.java:119)
+	at com.carrotsearch.hppc.IntIntHashMap.<init>(IntIntHashMap.java:105)
+	at com.carrotsearch.hppc.IntIntHashMap.<init>(IntIntHashMap.java:94)
+	at org.carrot2.text.preprocessing.PhraseExtractor.discoverRcs(PhraseExtractor.java:253)
+	at org.carrot2.text.preprocessing.PhraseExtractor.extractPhrases(PhraseExtractor.java:94)
+	at org.carrot2.text.preprocessing.pipeline.CompletePreprocessingPipeline.preprocess(CompletePreprocessingPipeline.java:73)
+	at org.carrot2.clustering.lingo.LingoClusteringAlgorithm.cluster(LingoClusteringAlgorithm.java:191)
+	at org.carrot2.clustering.lingo.LingoClusteringAlgorithm.access$000(LingoClusteringAlgorithm.java:63)
+	at org.carrot2.clustering.lingo.LingoClusteringAlgorithm$1.process(LingoClusteringAlgorithm.java:177)
+	at org.carrot2.text.clustering.MultilingualClustering.clusterByLanguage(MultilingualClustering.java:284)
+	at org.carrot2.text.clustering.MultilingualClustering.process(MultilingualClustering.java:163)
+	at org.carrot2.clustering.lingo.LingoClusteringAlgorithm.process(LingoClusteringAlgorithm.java:170)
+	at org.carrot2.core.ControllerUtils.performProcessing(ControllerUtils.java:106)
+	at org.carrot2.core.Controller.process(Controller.java:357)
+	at org.carrot2.core.Controller.process(Controller.java:247)
+	at org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngine.cluster(CarrotClusteringEngine.java:257)
+	at org.apache.solr.handler.clustering.ClusteringComponent.process(ClusteringComponent.java:180)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:273)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:256)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:219)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+
+2016-07-04 13:36:19.021 WARN  (qtp434176574-13) [   x:fastnext] o.e.j.s.ServletHandler Error for /solr/fastnext/clustering
+java.lang.OutOfMemoryError: Java heap space
+	at com.carrotsearch.hppc.IntIntHashMap.allocateBuffers(IntIntHashMap.java:1140)
+	at com.carrotsearch.hppc.IntIntHashMap.ensureCapacity(IntIntHashMap.java:660)
+	at com.carrotsearch.hppc.IntIntHashMap.<init>(IntIntHashMap.java:138)
+	at com.carrotsearch.hppc.IntIntHashMap.<init>(IntIntHashMap.java:119)
+	at com.carrotsearch.hppc.IntIntHashMap.<init>(IntIntHashMap.java:105)
+	at com.carrotsearch.hppc.IntIntHashMap.<init>(IntIntHashMap.java:94)
+	at org.carrot2.text.preprocessing.PhraseExtractor.discoverRcs(PhraseExtractor.java:253)
+	at org.carrot2.text.preprocessing.PhraseExtractor.extractPhrases(PhraseExtractor.java:94)
+	at org.carrot2.text.preprocessing.pipeline.CompletePreprocessingPipeline.preprocess(CompletePreprocessingPipeline.java:73)
+	at org.carrot2.clustering.lingo.LingoClusteringAlgorithm.cluster(LingoClusteringAlgorithm.java:191)
+	at org.carrot2.clustering.lingo.LingoClusteringAlgorithm.access$000(LingoClusteringAlgorithm.java:63)
+	at org.carrot2.clustering.lingo.LingoClusteringAlgorithm$1.process(LingoClusteringAlgorithm.java:177)
+	at org.carrot2.text.clustering.MultilingualClustering.clusterByLanguage(MultilingualClustering.java:284)
+	at org.carrot2.text.clustering.MultilingualClustering.process(MultilingualClustering.java:163)
+	at org.carrot2.clustering.lingo.LingoClusteringAlgorithm.process(LingoClusteringAlgorithm.java:170)
+	at org.carrot2.core.ControllerUtils.performProcessing(ControllerUtils.java:106)
+	at org.carrot2.core.Controller.process(Controller.java:357)
+	at org.carrot2.core.Controller.process(Controller.java:247)
+	at org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngine.cluster(CarrotClusteringEngine.java:257)
+	at org.apache.solr.handler.clustering.ClusteringComponent.process(ClusteringComponent.java:180)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:273)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:156)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2073)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:457)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:256)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:219)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+2016-07-06 11:01:00.224 ERROR (qtp434176574-12) [   x:fastnext] o.a.s.s.HttpSolrCall null:java.lang.RuntimeException: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:611)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:472)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:222)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:181)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:256)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:219)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+
+2016-07-06 11:01:00.268 WARN  (qtp434176574-12) [   x:fastnext] o.e.j.s.ServletHandler Error for /solr/fastnext/clustering
+java.lang.OutOfMemoryError: Java heap space
